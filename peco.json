@@ -1,0 +1,32 @@
+{
+    "homepage": "http://peco.github.io/",
+    "version": "0.5.1",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/peco/peco/releases/download/v0.5.1/peco_windows_amd64.zip",
+            "hash": "08ae2913ecc799cd6d34ab028444f309092c91e49da10b1cafccae1cd0850a0a",
+            "extract_dir": "peco_windows_amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/peco/peco/releases/download/v0.5.1/peco_windows_386.zip",
+            "hash": "d7fc1677434a82cda089f7e8917bd57539cf4210657a8782f1af3e1b30e02ede",
+            "extract_dir": "peco_windows_386"
+        }
+    },
+    "bin": "peco.exe",
+    "checkver": {
+        "url": "https://github.com/peco/peco/releases/latest",
+        "re": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/peco/peco/releases/download/v$version/peco_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/peco/peco/releases/download/v$version/peco_windows_386.zip"
+            }
+        }
+    }
+}
