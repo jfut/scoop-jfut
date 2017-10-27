@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/peco/peco/releases/download/v0.5.1/peco_windows_amd64.zip",
-            "hash": "08ae2913ecc799cd6d34ab028444f309092c91e49da10b1cafccae1cd0850a0a",
+            "hash": "07ae2913ecc799cd6d34ab028444f309092c91e49da10b1cafccae1cd0850a0a",
             "extract_dir": "peco_windows_amd64"
         },
         "32bit": {
