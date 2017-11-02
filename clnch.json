@@ -12,6 +12,6 @@
         "re": "CraftLaunch ver ([\\d.]+)</a>"
     },
     "autoupdate": {
-        "url": "http://crftwr.github.io/clnch/download/clnch_$majorVersion$minorVersion.zip"
+        "url": "http://crftwr.github.io/clnch/download/clnch_$cleanVersion.zip"
     }
 }
