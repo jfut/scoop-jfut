@@ -4,7 +4,6 @@
     "license": "MIT",
     "url": "http://www.brianapps.net/sizer/sizer334.zip",
     "hash": "d475037924749f26d2fc2200c003c278f5b5d6811ed20d51e9041a28e6e749e8",
-    "bin": "sizer.exe",
     "shortcuts": [
         [
             "sizer.exe",

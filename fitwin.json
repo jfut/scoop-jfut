@@ -5,7 +5,6 @@
     "url": "http://hakomo.github.io/fitwin/downloads/fitwin.zip",
     "hash": "cc06d14dabb93bfeb850a47221d0902027d01c1e74682d823b12550eb7f8604d",
     "extract_dir": "fitwin",
-    "bin": "fitwin.exe",
     "shortcuts": [
         [
             "fitwin.exe",
