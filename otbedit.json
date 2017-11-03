@@ -1,0 +1,33 @@
+{
+    "homepage": "http://www.hi-ho.ne.jp/a_ogawa/otbedit/",
+    "version": "6.3.5.0",
+    "_comment": "license from ReadMe.txt",
+     "license": "(1)このソフトウェアはフリーソフトです。利用及び再配布は自由に行ってください。(2)このソフトウェアの著作権は，作者(小川 淳)にあります。(3)このソフトウェアにより生じた被害には，一切責任を負いません。",
+    "url": "http://www.hi-ho.ne.jp/a_ogawa/otbedit/otbedit_6350.zip",
+    "hash": "448088affe03ade8e29c73147065a876290266e0cc27200f429b4fb5043f86e7",
+    "extract_dir": "otbedit",
+    "bin": "otbedit.exe",
+    "pre_install": "
+        if(!(Test-Path(\"$dir\\ogrep.ini\"))) { New-Item \"$dir\\ogrep.ini\" | Out-Null }
+        if(!(Test-Path(\"$dir\\otbedit.ini\"))) { New-Item \"$dir\\otbedit.ini\" | Out-Null }
+        if(!(Test-Path(\"$dir\\otbedit_local.ini\"))) { New-Item \"$dir\\otbedit_local.ini\" | Out-Null }
+    ",
+    "persist": [
+        "ogrep.ini",
+        "otbedit.ini",
+        "otbedit_local.ini"
+    ],
+    "shortcuts": [
+        [
+            "otbedit.exe",
+            "OTBEdit"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.hi-ho.ne.jp/a_ogawa/otbedit/chlog.htm",
+        "re": "ver.([\\d.]+) \\("
+    },
+    "autoupdate": {
+        "url": "http://www.hi-ho.ne.jp/a_ogawa/otbedit/otbedit_$cleanVersion.zip"
+    }
+}
