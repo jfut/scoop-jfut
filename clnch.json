@@ -1,5 +1,6 @@
 {
     "homepage": "https://sites.google.com/site/craftware/clnch",
+    "_comment": "shim of version 3.33 don't work",
     "version": "3.32",
     "license": "https://github.com/crftwr/clnch/blob/master/license/python_license.txt",
     "description": "CraftLaunch",
