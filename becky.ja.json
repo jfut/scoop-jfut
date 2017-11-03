@@ -1,0 +1,20 @@
+{
+    "homepage": "http://www.rimarts.co.jp/becky-j.htm",
+    "version": "2.74.00",
+    "license": "Commercial",
+    "url": "http://www.rimarts.jp/downloads/B2/bk27400j.zip",
+    "hash": "dd378c8115b608d89c2d4d3237755f8017628bf2ae07cac8a1ffe04c8d0aee7d",
+    "shortcuts": [
+        [
+            "B2.exe",
+            "Becky!"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.rimarts.co.jp/becky-j.htm",
+        "re": "\\.zip.+?Becky! Internet Mail Ver\\.\\d \\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "url": "http://www.rimarts.jp/downloads/B2/bk$cleanVersionj.zip"
+    }
+}
