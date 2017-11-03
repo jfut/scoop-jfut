@@ -7,6 +7,12 @@
     "hash": "1b99d7cc234cb91b3e751824f81c822fe8f71533e7d8b32a0de4b1539a35bfc4",
     "extract_dir": "clnch",
     "bin": "clnch.exe",
+    "shortcuts": [
+        [
+            "clnch.exe",
+            "CraftLaunch"
+        ]
+    ],
     "checkver": {
         "url": "https://sites.google.com/site/craftware/clnch",
         "re": "CraftLaunch ver ([\\d.]+)</a>"
