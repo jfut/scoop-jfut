@@ -1,0 +1,36 @@
+{
+    "homepage": "https://www.ponsoftware.com/",
+    "version": "7.55",
+    "license": "https://www.ponsoftware.com/archiver/regist.htm",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.ponsoftware.com/archiver/explzh/explz755_x64.exe#/dl.7z",
+            "hash": "57ed11891f59a004ad9dfce00db865c015196f4336aa2a63e163c7ebf3efbe3c"
+        },
+        "32bit": {
+            "url": "https://www.ponsoftware.com/archiver/explzh/explz755.exe#/dl.7z",
+            "hash": "cd21f4782361d5eb82d008a67b8f555c69ada38a71e453fec835b689dbae5365"
+        }
+    },
+    "bin": "Explzh.exe",
+    "shortcuts": [
+        [
+            "Explzh.exe",
+            "Explzh"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.ponsoftware.com/archiver/download.htm",
+        "re": "Explzh Ver\\.([\\d.]+) \\("
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.ponsoftware.com/archiver/explzh/explz$cleanVersion_x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.ponsoftware.com/archiver/explzh/explz$cleanVersion.exe#/dl.7z"
+            }
+        }
+    }
+}
