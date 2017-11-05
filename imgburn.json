@@ -1,0 +1,23 @@
+{
+    "homepage": "http://www.imgburn.com/",
+    "version": "2.5.8.0",
+    "license": "http://www.imgburn.com/",
+    "url": "http://download.imgburn.com/SetupImgBurn_2.5.8.0.exe#/dl.7z",
+    "hash": "d7dea2819edc77bc44db637cd324e61942b54930cb3034f8f1a417b7dd27b514",
+    "pre_install": "
+        Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse
+    ",
+    "shortcuts": [
+        [
+            "ImgBurn.exe",
+            "ImgBurn"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.imgburn.com/",
+        "re": "Current version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://download.imgburn.com/SetupImgBurn_$version.exe#/dl.7z"
+    }
+}
