@@ -1,0 +1,33 @@
+{
+    "homepage": "https://www.mozilla.org/ja/thunderbird/",
+    "version": "52.4.0",
+    "url": "https://download.mozilla.org/?product=thunderbird-52.4.0-SSL&os=win&lang=ja#/thunderbird-setup.exe",
+    "hash": "sha512:b4ed6ec4e0b2d6c8c3b2a042ce515f28d2c54720a632e5f15c7da2919dd7670cbbc6e0eaab080f06d0c1a8a23829f4b7a5a0e8f6bfc2f2555a89f0baff8e4d0b",
+    "bin": "thunderbird.exe",
+    "shortcuts": [
+        [
+            "thunderbird.exe",
+            "Mozilla Thunderbird"
+        ]
+    ],
+    "pre_install": "echo \"[Install]`nInstallDirectoryPath=$dir`nQuickLaunchShortcut=false`nDesktopShortcut=false`nStartMenuShortcuts=false\" | sc \"$dir\\install.ini\"",
+    "installer": {
+        "file": "thunderbird-setup.exe",
+        "args": "/INI=$dir\\install.ini"
+    },
+    "uninstaller": {
+        "file": "uninstall\\helper.exe",
+        "args": "/S"
+    },
+    "checkver": {
+        "url": "https://www.mozilla.org/ja/thunderbird/all/",
+        "re": "thunderbird-([\\d.]+)-SSL&amp;os=win&amp;lang=ja"
+    },
+    "autoupdate": {
+        "url": "https://download.mozilla.org/?product=thunderbird-$version-SSL&os=win&lang=ja#/thunderbird-setup.exe",
+        "hash": {
+            "find": "([a-fA-F0-9]{128})\\s+(?:win32/ja/Thunderbird Setup ([\\d.]+).exe)",
+            "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$version/SHA512SUMS"
+        }
+    }
+}
