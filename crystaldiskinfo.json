@@ -1,0 +1,37 @@
+{
+    "homepage": "https://crystalmark.info/download/index-e.html",
+    "version": "7.5.0",
+    "license": "MIT",
+    "_comment": "OSDN don't support direct download with User-Agent: Scoop/1.0",
+    "url": "http://iij.dl.osdn.jp/crystaldiskinfo/68590/CrystalDiskInfo7_5_0.zip",
+    "hash": "b6dae59ccac3c850469c99024ea539c958d608b0a18e8948a1338f2f7a703dd4",
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "DiskInfo64.exe",
+                    "CrystalDiskInfo"
+                ]
+            ]
+        },
+         "32bit": {
+            "shortcuts": [
+                [
+                    "DiskInfo32.exe",
+                    "CrystalDiskInfo"
+                ]
+            ]
+        }
+    },
+    "pre_install": "
+        if(!(Test-Path(\"$dir\\DiskInfo.ini\"))) { New-Item \"$dir\\DiskInfo.ini\" | Out-Null }
+    ",
+    "persist": [
+        "Smart",
+        "DiskInfo.ini"
+    ],
+    "checkver": {
+        "url": "https://crystalmark.info/download/index-e.html",
+        "re": "\\] CrystalDiskInfo ([\\d.]+) -"
+    }
+}
