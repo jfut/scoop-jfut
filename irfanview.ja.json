@@ -1,0 +1,65 @@
+{
+    "version": "4.50",
+    "license": "Commercial",
+    "homepage": "http://www.irfanview.com/",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "http://irfanview.info/files/iview450_x64.zip",
+                "http://www.fosshub.com/IrfanView.html/irfanview_plugins_450_x64.zip",
+                "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
+            ],
+            "hash": [
+                "087dcbfa41c03fb1db658fef361325a3384b6c3339e30309b6d2367627e5ee7d",
+                "88ec0c06487346af7f4f47ae3815197712d14eb6b9cba8af6210294fb1ecd0ca",
+                "04197e36b22e6edfe50c92638ff173e4db3a6a7ec9bac1fceed75ab9beb8856d"
+            ],
+            "shortcuts": [
+                [
+                    "i_view64.exe",
+                    "IrfanView"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": [
+                "http://irfanview.info/files/iview450.zip",
+                "http://www.fosshub.com/IrfanView.html/irfanview_plugins_450.zip",
+                "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
+            ],
+            "hash": [
+                "e1cba9b67f1df0af7683696acf24cc8de126f001caa058c12f9cc53c7d04829a",
+                "938e3c8c4ab3ff1385bac96051970f727998238742a19f8f186f8a1f31840f6b",
+                "04197e36b22e6edfe50c92638ff173e4db3a6a7ec9bac1fceed75ab9beb8856d"
+            ],
+            "shortcuts": [
+                [
+                    "i_view32.exe",
+                    "IrfanView"
+                ]
+            ]
+        }
+    },
+    "pre_install": "
+if (!(Test-Path \"$persist_dir\\i_view64.ini\")) {
+    New-Item $dir\\i_view64.ini -type file
+    write-output \"[Language]`r`nDLL=JAPANESE.DLL`r`nLang=Japanese\" | Out-File -encoding \"ASCII\" $dir\\i_view64.ini
+}
+if (!(Test-Path \"$persist_dir\\i_view32.ini\")) {
+    New-Item $dir\\i_view32.ini -type file
+    write-output \"[Language]`r`nDLL=JAPANESE.DLL`r`nLang=Japanese\" | Out-File -encoding \"ASCII\" $dir\\i_view32.ini
+}
+   ",
+    "persist": [
+        "i_view64.ini",
+        "i_view32.ini"
+    ],
+    "extract_to": [
+        "",
+        "Plugins"
+    ],
+    "checkver": {
+        "url": "http://www.irfanview.com/main_start_engl.htm",
+        "re": "Current version: ([\\d\\.-]+)"
+    }
+}

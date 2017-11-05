@@ -13,6 +13,7 @@ scoop bucket add jfut-scoop-bucket https://github.com/jfut/jfut-scoop-bucket.git
 - [extras bucket](https://github.com/lukesampson/scoop-extras)
     - firefox.ja.json
     - thunderbird.ja.json
+    - irfanview.ja.json
 
 # Official buckets
 
