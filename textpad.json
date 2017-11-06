@@ -1,0 +1,49 @@
+{
+    "homepage": "https://textpad.com/products/textpad/",
+    "version": "8.1.2",
+    "license": "Commercial",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.textpad.com/download/v81/x64/txpeng812-64.zip",
+            "hash": "50eb141b06e0d4cce6129d8c5a7a6e6fe4a444252739c2f244972d288339d88e"
+        },
+        "32bit": {
+            "url": "https://www.textpad.com/download/v81/win32/txpeng812-32.zip",
+            "hash": "b9991fa28bdaaf79afa09ceeca5e2c0f680e256515c93d47930462af64058c57"
+        }
+    },
+    "depends": "lessmsi",
+    "pre_install": "Start-Process -FilePath \"$dir\\setup.exe\" -ArgumentList \"/s /x /b`\"$dir`\" /v`\"/qn`\"\" -Wait",
+    "installer": {
+        "script": "
+            # This .msi installer does not support changing TARGETDIR and INSTALLDIR properties.
+            extract_lessmsi \"$dir\\TextPad 8.msi\" \"$dir\\\"
+            movedir \"$dir\\SourceDir\\program files\\TextPad 8\" \"$dir\"
+
+            # Remove unused files
+            Remove-Item \"$dir\\SourceDir\" -Recurse
+            Remove-Item \"$dir\\TextPad 8.msi\"
+        "
+    },
+    "bin": "TextPad.exe",
+    "shortcuts": [
+        [
+            "TextPad.exe",
+            "TextPad"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.textpad.com/support/relnotes.html",
+        "re": "<h5>TextPad ([\\d.]+) \\("
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://textpad.com/download/v$majorVersion$minorVersion/x64/txpjpn$cleanVersion-64.zip"
+            },
+            "32bit": {
+                "url": "https://textpad.com/download/v$majorVersion$minorVersion/win32/txpjpn$cleanVersion-32.zip"
+            }
+        }
+    }
+}
