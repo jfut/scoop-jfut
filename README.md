@@ -1,11 +1,11 @@
-# jfut-scoop-bucket
+# scoop-jfut
 
-The "jfut-scoop-bucket" bucket for [Scoop](http://scoop.sh).
+The "jfut" bucket for [Scoop](http://scoop.sh).
 
 To make it easy to install apps from this bucket, run
 
 ```
-scoop bucket add jfut-scoop-bucket https://github.com/jfut/jfut-scoop-bucket.git
+scoop bucket add jfut https://github.com/jfut/scoop-jfut.git
 ```
 
 # Japanese packages based on third-party buckets
