@@ -1,0 +1,31 @@
+{
+    "homepage": "http://ais.informatik.uni-freiburg.de/tursi/",
+    "version": "1.1",
+    "license": "http://ais.informatik.uni-freiburg.de/tursi/",
+    "url": "http://ais.informatik.uni-freiburg.de/tursi/dnld/v1.1/tursi.jar",
+    "hash": "7bf372c43d57f17ed57e3c7972a7955c57be6713948827e9a8b154649c135b60",
+    "suggest": {
+        "JDK": [
+            "extras/oraclejdk",
+            "openjdk"
+        ]
+    },
+    "bin": "tursi.vbs",
+    "pre_install": "
+        \"Set objWShell = CreateObject(`\"Wscript.Shell`\")\" | Out-File -encoding oem $dir\\tursi.vbs
+        \"objWShell.run `\"cmd /c @java -jar $dir\\tursi.jar`\", vbHide\" | Out-File -Append -Encoding oem $dir\\tursi.vbs
+    ",
+    "shortcuts": [
+        [
+            "tursi.vbs",
+            "Tursi"
+        ]
+    ],
+    "checkver": {
+        "url": "http://ais.informatik.uni-freiburg.de/tursi/downloads.html",
+        "re": "<td>v([\\d.]+)</td>"
+    },
+    "autoupdate": {
+        "url": "http://ais.informatik.uni-freiburg.de/tursi/dnld/v$version/tursi.jar"
+    }
+}
