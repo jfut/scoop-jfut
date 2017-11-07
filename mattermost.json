@@ -1,0 +1,38 @@
+{
+    "homepage": "https://about.mattermost.com/",
+    "version": "3.7.1",
+    "license": "Apache 2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.mattermost.com/desktop/3.7.1/mattermost-setup-3.7.1-win64.exe#/dl.7z",
+            "hash": "10608aa727ff0de20368d6e201864f167a9f774b1328cf2d2d5ec28080665364"
+        },
+        "32bit": {
+            "url": "https://releases.mattermost.com/desktop/3.7.1/mattermost-setup-3.7.1-win32.exe#/dl.7z",
+            "hash": "68dd5ee5bed1172c075ff77655d775e484ca9792653be11e0c5e657565debb7f"
+        }
+    },
+    "installer": {
+        "script": "extract_7zip \"$dir\\mattermost-*-full.nupkg\" \"$dir\""
+    },
+    "shortcuts": [
+        [
+            "lib/net45/Mattermost.exe",
+            "Mattermost"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/mattermost/desktop/releases/latest",
+        "re": "/releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.mattermost.com/desktop/$version/mattermost-setup-$version-win64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://releases.mattermost.com/desktop/$version/mattermost-setup-$version-win32.exe#/dl.7z"
+            }
+        }
+    }
+}
