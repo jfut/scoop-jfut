@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.skype.com/",
+    "version": "7.40.0.151",
+    "license": "https://www.skype.com/en/legal/tou-connect/",
+    "url": "https://download.skype.com/msi/SkypeSetup_7.40.0.151.msi",
+    "hash": "72f041482a56da472c9349f5b62a8dc3bc79661a60add3967bf633d8a058974a",
+    "extract_dir": "Program Files\\Skype",
+    "shortcuts": [
+        [
+            "Phone/Skype.exe",
+            "Skype for Desktop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://support.skype.com/en/faq/FA34509/what-s-new-in-skype-for-windows-desktop",
+        "re": "Skype ([\\d.]+)( for W|<)"
+    },
+    "autoupdate": {
+        "url": "https://download.skype.com/msi/SkypeSetup_$version.msi"
+    }
+}
