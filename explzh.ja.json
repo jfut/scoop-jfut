@@ -12,6 +12,11 @@
             "hash": "cd21f4782361d5eb82d008a67b8f555c69ada38a71e453fec835b689dbae5365"
         }
     },
+    "installer": {
+        "script": "
+            InfDefaultInstall \"$dir\\x64\\EXPLZH.INF\"
+        "
+    },
     "bin": "Explzh.exe",
     "shortcuts": [
         [
@@ -19,6 +24,13 @@
             "Explzh"
         ]
     ],
+    "uninstaller": {
+        "script": "
+            Copy-Item \"$dir\\associate.exe\" $Env:Temp
+            Copy-Item \"$dir\\install.exe\" $Env:Temp
+            &\"$Env:Temp\\install.exe\" \"/d\"
+        "
+    },
     "checkver": {
         "url": "https://www.ponsoftware.com/archiver/download.htm",
         "re": "Explzh Ver\\.([\\d.]+) \\("
