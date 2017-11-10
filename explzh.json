@@ -24,6 +24,21 @@
             "Explzh"
         ]
     ],
+    "post_install": "
+        # Parrent path
+        $regpath = 'HKCU:\\Software\\Pon\\'
+        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
+        $regpath = 'HKCU:\\Software\\Pon\\Explzh\\'
+        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
+        # ExplzhDir
+        $regpath = 'HKCU:\\Software\\Pon\\Explzh\\Folders\\'
+        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
+        $regname = 'ExplzhDir'
+        $regvalue = Get-ItemProperty -Path \"$regpath\" -Name \"$regname\" -ErrorAction SilentlyContinue
+        if ($regvalue -eq $null) {
+            Set-ItemProperty \"$regpath\" -Name \"$regname\" -Value \"$dir\"
+        }
+    ",
     "uninstaller": {
         "script": "
             Copy-Item \"$dir\\associate.exe\" $Env:Temp
