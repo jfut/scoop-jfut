@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.0/gopass-1.6.0-windows-386.zip",
-            "hash": "9e26c737dd2371.6.7bc585ef09563c7407d5221bfd0630b7215920ef0469f8d51442608c535cced3",
+            "hash": "7bc585ef09563c7407d5221bfd0630b7215920ef0469f8d51442608c535cced3",
             "extract_dir": "gopass-1.6.0-windows-386"
         }
     },
