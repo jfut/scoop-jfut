@@ -1,4 +1,4 @@
-# scoop-jfut
+# scoop-jfut [![Build status](https://ci.appveyor.com/api/projects/status/g7rl27je2p7y3kcs?svg=true)](https://ci.appveyor.com/project/jfut/scoop-jfut)
 
 The "jfut" bucket for [Scoop](http://scoop.sh).
 
