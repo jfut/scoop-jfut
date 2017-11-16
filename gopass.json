@@ -6,12 +6,12 @@
         "64bit": {
             "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.1/gopass-1.6.1-windows-amd64.zip",
             "hash": "ccbe28ef13de9dafedafa9cb309357e010c4a1f927f05efe29d40299e2eb4574",
-            "extract_dir": "gopass-1.6.0-windows-amd64"
+            "extract_dir": "gopass-1.6.1-windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.1/gopass-1.6.1-windows-386.zip",
             "hash": "9ae37019691d3804d1a2ebc7895109640de92cbe1d95b4f17a41bbfba78de649",
-            "extract_dir": "gopass-1.6.0-windows-386"
+            "extract_dir": "gopass-1.6.1-windows-386"
         }
     },
     "bin": "gopass.exe",
@@ -26,14 +26,16 @@
                 "hash": {
                     "url": "https://github.com/justwatchcom/gopass/releases/download/v$version/gopass_$version_SHA256SUMS",
                     "find": "([a-fA-F0-9]{64})\\s+gopass-$version-windows-amd64.zip"
-                }
+                },
+                "extract_dir": "gopass-$version-windows-amd64"
             },
             "32bit": {
                 "url": "https://github.com/justwatchcom/gopass/releases/download/v$version/gopass-$version-windows-386.zip",
                 "hash": {
                     "url": "https://github.com/justwatchcom/gopass/releases/download/v$version/gopass_$version_SHA256SUMS",
                     "find": "([a-fA-F0-9]{64})\\s+gopass-$version-windows-386.zip"
-                }
+                },
+                "extract_dir": "gopass-$version-windows-386"
             }
         }
     }
