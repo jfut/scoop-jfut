@@ -20,8 +20,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/TigerVNC/tigervnc/releases/latest",
-        "re": "/releases/tag/v([\\d.]+)"
+        "github": "https://github.com/TigerVNC/tigervnc"
     },
     "autoupdate": {
         "architecture": {

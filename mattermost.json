@@ -22,8 +22,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/mattermost/desktop/releases/latest",
-        "re": "/releases/tag/v([\\d.]+)"
+        "github": "https://github.com/mattermost/desktop"
     },
     "autoupdate": {
         "architecture": {

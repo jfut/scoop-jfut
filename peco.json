@@ -16,8 +16,7 @@
     },
     "bin": "peco.exe",
     "checkver": {
-        "url": "https://github.com/peco/peco/releases/latest",
-        "re": "/releases/tag/v([\\d.]+)"
+        "github": "https://github.com/peco/peco"
     },
     "autoupdate": {
         "architecture": {

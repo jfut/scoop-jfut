@@ -16,8 +16,7 @@
     },
     "bin": "gopass.exe",
     "checkver": {
-        "url": "https://github.com/justwatchcom/gopass/releases/latest",
-        "re": "/releases/tag/v([\\d.]+)"
+        "github": "https://github.com/justwatchcom/gopass"
     },
     "autoupdate": {
         "architecture": {
