@@ -1,15 +1,15 @@
 {
     "homepage": "https://ipmsg.org/tools/fastcopy.html",
-    "version": "3.32",
+    "version": "3.40",
     "license": "GPL3",
     "architecture": {
         "64bit": {
-            "url": "http://dforest.watch.impress.co.jp/library/f/fastcopy/11575/FastCopy332_x64.zip",
-            "hash": "b3319d65e89570f521b8abe6a5aaf5ba7cd9b1e14be8dbe18e119b924fefd935"
+            "url": "https://ipmsg.org/archive/FastCopy340_x64.zip",
+            "hash": "b1754976dd2e0a688c8a705b43f1b7ba8497c135fc99f2e2159084c10aad31a8"
         },
         "32bit": {
-            "url": "http://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy332.zip",
-            "hash": "801b133519ec7779ac344bc5693e4cade51a3c7eae696e9f527eef71be440e55"
+            "url": "https://ipmsg.org/archive/FastCopy340.zip",
+            "hash": "20d5637db54116c7959794b31dbda249f163ebeb1079d19a96b990cf8f170c44"
         }
     },
     "bin": "FastCopy.exe",
@@ -41,5 +41,15 @@
     "checkver": {
         "url": "https://ipmsg.org/tools/fastcopy.html",
         "re": "FastCopy v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ipmsg.org/archive/FastCopy$cleanVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "https://ipmsg.org/archive/FastCopy$cleanVersion.zip"
+            }
+        }
     }
 }
