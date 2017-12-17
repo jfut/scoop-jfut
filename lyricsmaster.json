@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.kenichimaehashi.com/lyricsmaster/",
-    "version": "2.4.8.1",
+    "version": "2.4.8.2",
     "license": "Proprietary",
-    "url": "http://www.kenichimaehashi.com/lyricsmaster/download/LyricsMaster2481.zip",
-    "hash": "782bcd3ba7add1ef05e6a2c4210b8f9eccdad39e7d50ff9dea817cbd1cf69784",
+    "url": "http://www.kenichimaehashi.com/lyricsmaster/download/LyricsMaster2482.zip",
+    "hash": "8f18c827119afa0837cc03d53a3a48bc8091a7899f5c6f2997440e8931e108c9",
     "extract_dir": "Lyrics Master",
     "shortcuts": [
         [
