@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.justwatch.com/gopass/",
-    "version": "1.6.2",
+    "version": "1.6.5",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.2/gopass-1.6.2-windows-amd64.zip",
-            "hash": "459dc6e0f5002e3585e5e216160e708de22f9ff9757b9b1d7f3529ae839d4070",
-            "extract_dir": "gopass-1.6.2-windows-amd64"
+            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.5/gopass-1.6.5-windows-amd64.zip",
+            "hash": "b99ada32748751e892d981e27b1fa0a1b445a828721d4975ab77c61eb8cdc392",
+            "extract_dir": "gopass-1.6.5-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.2/gopass-1.6.2-windows-386.zip",
-            "hash": "bb0b242a7cdcb8d6c5c0dd91f494d78ec4fa513d3bb57b37ad4f9e672cb8f9f1",
-            "extract_dir": "gopass-1.6.2-windows-386"
+            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.5/gopass-1.6.5-windows-386.zip",
+            "hash": "2962269135cf8db6132bfcac1e31ee93b7a1abb8b94d0e11dccb92d7f0a0b2f6",
+            "extract_dir": "gopass-1.6.5-windows-386"
         }
     },
     "bin": "gopass.exe",
