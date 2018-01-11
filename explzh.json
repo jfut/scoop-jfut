@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.ponsoftware.com/en/",
-    "version": "7.55",
+    "version": "7.56",
     "license": "https://www.ponsoftware.com/en/archiver/regist.htm",
     "architecture": {
         "64bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz755_en_x64.exe#/dl.7z",
-            "hash": "eb018abc5d7a61dcc0c05c13e667eb7ef4b6299a917b3e0b60244ccc6e8fbd91"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz756_en_x64.exe#/dl.7z",
+            "hash": "cf05af481e4df1ae64ad6aad930244eab42cef3407dda9f00012323be4eac4f4"
         },
         "32bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz755_en.exe#/dl.7z",
-            "hash": "55be00b44d5e8363fec9d5f9179b7f5e604802286cd78d2c4bd6048c0e87adac"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz756_en.exe#/dl.7z",
+            "hash": "d1599da83ce1ed6014c5c55f435cf0238ed573418b4ac0d47bf5c8c70029d742"
         }
     },
     "installer": {
@@ -53,10 +53,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.ponsoftware.com/archiver/explzh/explz$cleanVersion_en_x64.exe#/dl.7z"
+                "url": "https://www.ponsoftware.com/en/archiver/explzh/explz$cleanVersion_en_x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.ponsoftware.com/archiver/explzh/explz$cleanVersion_en.exe#/dl.7z"
+                "url": "https://www.ponsoftware.com/en/archiver/explzh/explz$cleanVersion_en.exe#/dl.7z"
             }
         }
     }
