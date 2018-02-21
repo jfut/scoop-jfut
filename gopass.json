@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.justwatch.com/gopass/",
-    "version": "1.6.10",
+    "version": "1.6.11",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.10/gopass-1.6.10-windows-amd64.zip",
-            "hash": "154cff08665627d2c204ffcae1c6e4e93f9c4532e7bf6c3094da8c1daa03bcb4",
-            "extract_dir": "gopass-1.6.10-windows-amd64"
+            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.11/gopass-1.6.11-windows-amd64.zip",
+            "hash": "a27a1c01002bad8a7e409379b64aecb17cacbe6ef1f37279f29f55f863c5dd17",
+            "extract_dir": "gopass-1.6.11-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.10/gopass-1.6.10-windows-386.zip",
-            "hash": "01630b89a254cd9cf590aae6f478cda597c13b7e13a97745f562a459b84ec4fa",
-            "extract_dir": "gopass-1.6.10-windows-386"
+            "url": "https://github.com/justwatchcom/gopass/releases/download/v1.6.11/gopass-1.6.11-windows-386.zip",
+            "hash": "a7b8c02fa6c6f6ed8ae2fb88943e5fe21c96a7e213f8a7ade1f3ec9574cbc0df",
+            "extract_dir": "gopass-1.6.11-windows-386"
         }
     },
     "bin": "gopass.exe",
