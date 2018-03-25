@@ -40,7 +40,7 @@
     ],
     "checkver": {
         "url": "https://ipmsg.org/tools/fastcopy.html",
-        "re": "FastCopy v([\\d.]+)"
+        "re": "FastCopy ver ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
