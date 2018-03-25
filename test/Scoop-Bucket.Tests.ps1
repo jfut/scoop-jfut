@@ -3,7 +3,7 @@
 . "$env:SCOOP_HOME\lib\unix.ps1"
 . "$env:SCOOP_HOME\test\Scoop-TestLib.ps1"
 
-$repo_dir = (Get-Item $MyInvocation.MyCommand.Path).directory.parent.FullName
+$repo_dir = (Get-Item $MyInvocation.MyCommand.Path).directory.FullName
 
 $repo_files = @(Get-ChildItem $repo_dir -file -recurse)
 
@@ -154,9 +154,9 @@ describe "manifest-validation" {
     beforeall {
         $working_dir = setup_working "manifest"
         $schema = "$env:SCOOP_HOME/schema.json"
-        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\Newtonsoft.Json.dll"
-        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\Newtonsoft.Json.Schema.dll"
-        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\Scoop.Validator.dll"
+        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.dll"
+        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Newtonsoft.Json.Schema.dll"
+        Add-Type -Path "$env:SCOOP_HOME\supporting\validator\bin\Scoop.Validator.dll"
     }
 
     it "Scoop.Validator is available" {
@@ -165,7 +165,7 @@ describe "manifest-validation" {
 
     context "manifest validates against the schema" {
         beforeall {
-            $bucketdir = "$psscriptroot/../"
+            $bucketdir = "$psscriptroot"
             $manifest_files = gci $bucketdir *.json
             $validator = new-object Scoop.Validator($schema, $true)
         }
