@@ -33,6 +33,6 @@
     ],
     "checkver": {
         "url": "https://crystalmark.info/download/index-e.html",
-        "re": "\\] CrystalDiskMark ([\\d.]+) -"
+        "re": "\\] CrystalDiskMark ([\\d.]+) &#8211;"
     }
 }
