@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.skype.com/",
-    "version": "7.40.0.151",
+    "version": "7.41.0.101",
     "license": "https://www.skype.com/en/legal/tou-connect/",
-    "url": "https://download.skype.com/msi/SkypeSetup_7.40.0.151.msi",
-    "hash": "72f041482a56da472c9349f5b62a8dc3bc79661a60add3967bf633d8a058974a",
+    "url": "https://download.skype.com/msi/SkypeSetup_7.41.0.101.msi",
+    "hash": "c7c5499bc1e3663c98fac492b066610c218722e83f9807328c5c4d06607027b2",
     "extract_dir": "Program Files\\Skype",
     "shortcuts": [
         [
