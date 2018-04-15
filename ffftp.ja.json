@@ -1,15 +1,15 @@
 {
     "homepage": "https://ja.osdn.net/projects/ffftp/",
-    "version": "1.99a",
+    "version": "2.00",
     "license": "BSD 3-clause",
     "architecture": {
         "64bit": {
-            "url": "http://jaist.dl.osdn.jp/ffftp/65807/ffftp-1.99a-64.zip",
-            "hash": "f590523bce0cadb200d5d9e9b036372aa62c85595ac47b957f774277a1090498"
+            "url": "http://jaist.dl.osdn.jp/ffftp/68885/ffftp-2.00-64.zip",
+            "hash": "7d4295ac39d71d499dda4d7657c75369e80d911763b92fad1d1c04c39cb1e38d"
         },
         "32bit": {
-            "url": "http://iij.dl.osdn.jp/ffftp/65809/ffftp-1.99a.zip",
-            "hash": "211bf775b5edcef2d0fb353875a72dd9d89d0c5594aa0917e27f22802ded4db6"
+            "url": "http://iij.dl.osdn.jp/ffftp/68885/ffftp-2.00.zip",
+            "hash": "fe4a46b31c79581c60c1ecaa1cccc744d8acd966f8c10016e4f4a30e231f856f"
         }
     },
     "extract_dir": "ffftp",
@@ -30,7 +30,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://ja.osdn.net/projects/ffftp/wiki/FFFTP-history",
-        "re": "Ver ([\\d.]+.?)"
+        "url": "https://ja.osdn.net/projects/ffftp/releases/",
+        "re": "ffftp-([\\d.]+.?).exe"
     }
 }
