@@ -6,12 +6,12 @@
         "64bit": {
             "url": "http://ice.hotmint.com/putty/putty-gdi-20180413.zip",
             "hash": "1c5f4cadf9b55c98e49e66d36f5a91bcd9ff5f2c4e6ac03b356eaf0ea8c9b52a",
-            "extract_dir": "putty-gdi-20170711\\x64"
+            "extract_dir": "putty-gdi-20180413\\x64"
         },
         "32bit": {
             "url": "http://ice.hotmint.com/putty/putty-gdi-20180413.zip",
             "hash": "1c5f4cadf9b55c98e49e66d36f5a91bcd9ff5f2c4e6ac03b356eaf0ea8c9b52a",
-            "extract_dir": "putty-gdi-20170711"
+            "extract_dir": "putty-gdi-20180413"
         }
     },
     "bin": [
