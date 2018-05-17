@@ -1,14 +1,14 @@
 {
     "homepage": "https://www.mozilla.org/ja/firefox/new/",
-    "version": "60.0",
+    "version": "60.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-60.0-SSL&os=win64&lang=ja#/firefox-setup.exe",
-            "hash": "07f68377a6ac8623c94294a1c4ca26d3fed620eef2b8638b479b9b17f1f112a8"
+            "url": "https://download.mozilla.org/?product=firefox-60.0.1-SSL&os=win64&lang=ja#/firefox-setup.exe",
+            "hash": "d627c7d4108fdc37dbdfb747057c4515b2473d421c3c1529a1e03d12b2cc3594"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-60.0-SSL&os=win&lang=ja#/firefox-setup.exe",
-            "hash": "626fafdbd82025404e05c08990d7d1ac10d1fbca92ff172e7683f9f93332037c"
+            "url": "https://download.mozilla.org/?product=firefox-60.0.1-SSL&os=win&lang=ja#/firefox-setup.exe",
+            "hash": "d27d7a8ef75b2451e4751e40ef2603b3bd158dd69439131475bc903de9e660e7"
         }
     },
     "bin": "firefox.exe",
