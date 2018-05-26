@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.mozilla.org/ja/thunderbird/",
-    "version": "52.7.0",
-    "url": "https://download.mozilla.org/?product=thunderbird-52.7.0-SSL&os=win&lang=ja#/thunderbird-setup.exe",
-    "hash": "sha512:d4bcd3f5810201f4510e599c14b81ec635db05f142e596e90f183cb9dce8c4ae449e82c91882dda42295b26bc0df48e14d4b7e79d07ba1809e5615bd953d0d6b",
+    "version": "52.8.0",
+    "url": "https://download.mozilla.org/?product=thunderbird-52.8.0-SSL&os=win&lang=ja#/thunderbird-setup.exe",
+    "hash": "sha512:1829db601e879d96538ce036fe17db2db6e9fdbf296634e78f62d1a5ae48952000102a2aeef4d262e2bf131b743f60db0bf7f67cf9af64813d96aed787697f80",
     "bin": "thunderbird.exe",
     "shortcuts": [
         [
@@ -21,7 +21,7 @@
     },
     "checkver": {
         "url": "https://www.mozilla.org/ja/thunderbird/all/",
-        "re": "thunderbird-([\\d.]+)-SSL&amp;os=win&amp;lang=ja"
+        "re": "thunderbird-([\\d.]+)-SSL&os=win&lang=ja"
     },
     "autoupdate": {
         "url": "https://download.mozilla.org/?product=thunderbird-$version-SSL&os=win&lang=ja#/thunderbird-setup.exe",
