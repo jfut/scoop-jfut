@@ -1,15 +1,15 @@
 {
     "homepage": "https://ipmsg.org/tools/fastcopy.html",
-    "version": "3.50",
+    "version": "3.51",
     "license": "GPL3",
     "architecture": {
         "64bit": {
-            "url": "https://ipmsg.org/archive/FastCopy350_x64.zip",
-            "hash": "dd9ee3283e250838c04de5f9ccac9306c03fb0a6463e14ecab735566826cd773"
+            "url": "https://ipmsg.org/archive/FastCopy351_x64.zip",
+            "hash": "69668a0c5869d501ecf31acf0bb12eb702d630b6e40a0f42bb60ab508ffc9aed"
         },
         "32bit": {
-            "url": "https://ipmsg.org/archive/FastCopy350.zip",
-            "hash": "9da9c80e2adeda063cb88f7dfba9eb4ec6986eabf394713280e6756033dea832"
+            "url": "https://ipmsg.org/archive/FastCopy351.zip",
+            "hash": "1888e1028b09c1a95f2f1901209e2baf51352d5d927b61ef7ae9604022da1fa2"
         }
     },
     "bin": "FastCopy.exe",
