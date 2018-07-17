@@ -1,0 +1,28 @@
+{
+    "homepage": "https://jasperapp.io/",
+    "version": "0.6.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jasperapp/jasper/releases/download/v0.6.0/jasper_v0.6.0_windows.zip",
+            "hash": "7604c188872eb36a3897a1349da2324e03d8e477e736ef7d505018e68bb80c8e",
+            "extract_dir": "Jasper"
+        }
+    },
+    "shortcuts": [
+        [
+            "Jasper.exe",
+            "Jasper"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jasperapp/jasper"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jasperapp/jasper/releases/download/v$version/jasper_v$version_windows.zip"
+            }
+        }
+    }
+}
