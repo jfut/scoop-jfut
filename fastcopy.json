@@ -5,29 +5,10 @@
     "url": "https://fastcopy.jp/archive/FastCopy352_installer.zip",
     "hash": "f87524abf51d0cf738b4bf644c255c73677c8ee456c079297dd2f89fa2e05e41",
     "bin": "FastCopy.exe",
-    "pre_install": "
-         if(!(Test-Path(\"$dir\\FastCopy2.ini\"))) {
-             New-Item \"$dir\\FastCopy2.ini\" -type file
-             write-output \"[main]\" | Out-File -encoding \"UTF8\" $dir\\FastCopy2.ini
-         }
-         if(!(Test-Path(\"$dir\\FastCopy2.ini.bak\"))) {
-             New-Item \"$dir\\FastCopy2.ini.bak\" -type file
-             write-output \"\" | Out-File -encoding \"UTF8\" $dir\\FastCopy2.ini.bak
-         }
-         if(!(Test-Path(\"$dir\\FastCopy2.ini.original\"))) {
-             New-Item \"$dir\\FastCopy2.ini.original\" -type file
-             write-output \"\" | Out-File -encoding \"UTF8\" $dir\\FastCopy2.ini.original
-         }
-    ",
     "installer": {
         "file": "FastCopy352_installer.exe",
         "args": "/EXTRACT /NOSUBDIR"
     },
-    "persist": [
-        "FastCopy2.ini",
-        "FastCopy2.ini.bak",
-        "FastCopy2.ini.original"
-    ],
     "shortcuts": [
         [
             "FastCopy.exe",
