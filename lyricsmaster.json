@@ -13,9 +13,9 @@
     ],
     "checkver": {
         "url": "http://www.kenichimaehashi.com/lyricsmaster/",
-        "re": "softwareVersion\">([\\d.]+)</span>"
+        "re": "softwareVersion\" content=\"(?<content>[\\d.]+)\">(?<version>[\\d.]+)</span>"
     },
     "autoupdate": {
-        "url": "http://www.kenichimaehashi.com/lyricsmaster/download/LyricsMaster$cleanVersion.zip"
+        "url": "http://www.kenichimaehashi.com/lyricsmaster/download/LyricsMaster$matchContent.zip"
     }
 }
