@@ -1,9 +1,9 @@
 {
     "homepage": "https://ipmsg.org/tools/fastcopy.html",
-    "version": "3.52",
+    "version": "3.53",
     "license": "GPL3",
-    "url": "https://fastcopy.jp/archive/FastCopy352_installer.zip",
-    "hash": "f87524abf51d0cf738b4bf644c255c73677c8ee456c079297dd2f89fa2e05e41",
+    "url": "https://fastcopy.jp/archive/FastCopy353_installer.zip",
+    "hash": "8b9b39935f1a8df4b71328ade84f5bff52a23e2bffbd1c8eabe6068301c230d3",
     "bin": "FastCopy.exe",
     "installer": {
         "file": "FastCopy352_installer.exe",
