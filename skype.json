@@ -1,21 +1,27 @@
 {
     "homepage": "https://www.skype.com/",
-    "version": "7.41.0.101",
+    "version": "8.28.0.41",
     "license": "https://www.skype.com/en/legal/tou-connect/",
-    "url": "https://download.skype.com/msi/SkypeSetup_7.41.0.101.msi",
-    "hash": "c7c5499bc1e3663c98fac492b066610c218722e83f9807328c5c4d06607027b2",
-    "extract_dir": "Program Files\\Skype",
+    "url": "https://go.skype.com/windows.desktop.download#/SkypeSetup.exe",
+    "hash": "29e65e1f11f634ece6ab1dcc5a5c8edc3a93514b5a189bbf76e63222859dc142",
+    "installer": {
+        "file": "SkypeSetup.exe",
+        "args": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=$dir\\install.log /DIR=$dir"
+    },
+    "uninstaller": {
+        "file": "unins000.exe"
+    },
     "shortcuts": [
         [
-            "Phone/Skype.exe",
-            "Skype for Desktop"
+            "Skype.exe",
+            "Skype"
         ]
     ],
     "checkver": {
-        "url": "https://support.skype.com/en/faq/FA34509/what-s-new-in-skype-for-windows-desktop",
-        "re": "Skype ([\\d.]+)( for W|<)"
+        "url": "https://support.skype.com/en/faq/FA12041/what-platforms-is-skype-available-on",
+        "re": "for Windows Desktop version&nbsp;([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.skype.com/msi/SkypeSetup_$version.msi"
+        "url": "https://go.skype.com/windows.desktop.download#/Skype-$version.exe"
     }
 }
