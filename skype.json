@@ -22,6 +22,6 @@
         "re": "for Windows Desktop version&nbsp;([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://go.skype.com/windows.desktop.download#/Skype-$version.exe"
+        "url": "https://go.skype.com/windows.desktop.download#/SkypeSetup.exe"
     }
 }
