@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.ponsoftware.com/en/",
-    "version": "7.61",
+    "version": "7.62",
     "license": "https://www.ponsoftware.com/en/archiver/regist.htm",
     "architecture": {
         "64bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz761_en_x64.exe#/dl.7z",
-            "hash": "d814f7ebadad29464db9b9100b0a4894eab8dc3d711f515b94ffbb431a6ef8bb"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz762_en_x64.exe#/dl.7z",
+            "hash": "b1ddf2105b0c328f3927101b8b53fd85d7a72783649af3b5d6912aceeb31146c"
         },
         "32bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz761_en.exe#/dl.7z",
-            "hash": "c7427cd3cdd01cb06bc18489be6c87b145bbe331909b99115c94e63a15406ab5"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz762_en.exe#/dl.7z",
+            "hash": "b1f9958edb6f4993ff02c516ec3b7e49d043dfbd18d80d947d252b7ad9a36fae"
         }
     },
     "installer": {
@@ -24,21 +24,23 @@
             "Explzh"
         ]
     ],
-    "post_install": "
-        # Parrent path
-        $regpath = 'HKCU:\\Software\\Pon\\'
-        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
-        $regpath = 'HKCU:\\Software\\Pon\\Explzh\\'
-        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
-        # ExplzhDir
-        $regpath = 'HKCU:\\Software\\Pon\\Explzh\\Folders\\'
-        if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }
-        $regname = 'ExplzhDir'
-        $regvalue = Get-ItemProperty -Path \"$regpath\" -Name \"$regname\" -ErrorAction SilentlyContinue
-        if ($regvalue -eq $null) {
-            Set-ItemProperty \"$regpath\" -Name \"$regname\" -Value \"$dir\"
-        }
-    ",
+    "post_install": [
+        "",
+        "# Parrent path",
+        "$regpath = 'HKCU:\\Software\\Pon\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "$regpath = 'HKCU:\\Software\\Pon\\Explzh\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "# ExplzhDir",
+        "$regpath = 'HKCU:\\Software\\Pon\\Explzh\\Folders\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "$regname = 'ExplzhDir'",
+        "$regvalue = Get-ItemProperty -Path \"$regpath\" -Name \"$regname\" -ErrorAction SilentlyContinue",
+        "if ($regvalue -eq $null) {",
+        "Set-ItemProperty \"$regpath\" -Name \"$regname\" -Value \"$dir\"",
+        "}",
+        ""
+    ],
     "uninstaller": {
         "script": "
             Copy-Item \"$dir\\associate.exe\" $Env:Temp
