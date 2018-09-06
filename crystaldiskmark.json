@@ -3,8 +3,8 @@
     "version": "6.0.1",
     "license": "MIT",
     "_comment": "OSDN don't support direct download with User-Agent: Scoop/1.0",
-    "url": "https://osdn.net/projects/crystaldiskmark/downloads/68624/CrystalDiskMark6_0_1.zip",
-    "hash": "12fc9427c58c5cecda1efa344fcc311ba0de30bdb19b159fb8c2e8f5be589381",
+    "url": "http://onet.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_1.zip",
+    "hash": "456034ACE9FE1DCF723C9618F368E7CE9B97267CEEC7A2E9D7854C3C3090201B",
     "architecture": {
         "64bit": {
             "shortcuts": [
