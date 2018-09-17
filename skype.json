@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.skype.com/",
-    "version": "8.29.0.50",
+    "version": "8.30.0.50",
     "license": "https://www.skype.com/en/legal/tou-connect/",
     "url": "https://go.skype.com/windows.desktop.download#/SkypeSetup.exe",
-    "hash": "12509d8d133cab7dd1bee14023f60cefa0dbb2609bd0479ea46a535f4dd33ad8",
+    "hash": "5b769d80f0916e7e82a422481062b9e558449cf3542983883e4622d5e49618f8",
     "installer": {
         "file": "SkypeSetup.exe",
         "args": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=$dir\\install.log /DIR=$dir"
@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://support.skype.com/en/faq/FA12041/what-platforms-is-skype-available-on",
-        "re": "for Windows Desktop version&nbsp;([\\d.]+)"
+        "re": "for Windows Desktop version&nbsp;</span>([\\d.]+)</div>"
     },
     "autoupdate": {
         "url": "https://go.skype.com/windows.desktop.download#/SkypeSetup.exe"
