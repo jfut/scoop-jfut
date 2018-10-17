@@ -5,12 +5,12 @@
     "license": "BunBackupはフリーソフトです 個人使用、企業内での業務使用に関わらず、BunBackupの使用は自由です",
     "architecture": {
         "64bit": {
-            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup500.zip",
-            "hash": "c4aab1e95f1888db277e09777f18dac5c62352241bbbbe5eecf6fb6068870033"
-        },
-        "32bit": {
             "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS500.zip",
             "hash": "9f6619d76ca70447fcabd40d69722348985d0db53dc5fbd81276d99bf5b357ee"
+        },
+        "32bit": {
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup500.zip",
+            "hash": "c4aab1e95f1888db277e09777f18dac5c62352241bbbbe5eecf6fb6068870033"
         }
     },
     "pre_install": "
@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup$cleanVersion0.zip"
+                "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS$cleanVersion0.zip"
             },
             "32bit": {
-                "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS$cleanVersion0.zip"
+                "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup$cleanVersion0.zip"
             }
         }
     }
