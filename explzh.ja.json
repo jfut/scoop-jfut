@@ -1,21 +1,23 @@
 {
     "homepage": "https://www.ponsoftware.com/",
-    "version": "7.67",
+    "version": "7.68",
     "license": "https://www.ponsoftware.com/archiver/regist.htm",
     "architecture": {
         "64bit": {
-            "url": "https://www.ponsoftware.com/archiver/explzh/explz767_x64.exe#/dl.7z",
-            "hash": "2058aa2419d51bc2f813e8a8c21108b7fb8971d6b7bd228425a66894cbb6e0f5"
+            "url": "https://www.ponsoftware.com/archiver/explzh/explz768_x64.exe#/dl.7z",
+            "hash": "69974f660f00816cba10d725655737886c6fa8fded5d848a506deb1838c4edc2"
         },
         "32bit": {
-            "url": "https://www.ponsoftware.com/archiver/explzh/explz767.exe#/dl.7z",
-            "hash": "ea906e806a4238af64e68bd491ffac3ba33ca4f8010e535d5867604489561304"
+            "url": "https://www.ponsoftware.com/archiver/explzh/explz768.exe#/dl.7z",
+            "hash": "3f12997423f0010924992552b98a2bf1605e98c64ae8b6a05f97a0ce3976a583"
         }
     },
     "installer": {
-        "script": "
-            InfDefaultInstall \"$dir\\x64\\EXPLZH.INF\"
-        "
+        "script": [
+            "",
+            "InfDefaultInstall \"$dir\\x64\\EXPLZH.INF\"",
+            ""
+        ]
     },
     "bin": "Explzh.exe",
     "shortcuts": [
@@ -42,11 +44,13 @@
         ""
     ],
     "uninstaller": {
-        "script": "
-            Copy-Item \"$dir\\associate.exe\" $Env:Temp
-            Copy-Item \"$dir\\install.exe\" $Env:Temp
-            &\"$Env:Temp\\install.exe\" \"/d\"
-        "
+        "script": [
+            "",
+            "Copy-Item \"$dir\\associate.exe\" $Env:Temp",
+            "Copy-Item \"$dir\\install.exe\" $Env:Temp",
+            "&\"$Env:Temp\\install.exe\" \"/d\"",
+            ""
+        ]
     },
     "checkver": {
         "url": "https://www.ponsoftware.com/archiver/download.htm",
