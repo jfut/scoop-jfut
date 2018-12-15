@@ -1,17 +1,17 @@
 {
-    "version": "4.51",
+    "version": "4.52",
     "license": "Commercial",
     "homepage": "http://www.irfanview.com/",
     "architecture": {
         "64bit": {
             "url": [
-                "http://irfanview.info/files/iview451_x64.zip",
-                "https://www.fosshub.com/IrfanView.html/iview451_plugins_x64.zip",
+                "https://www.irfanview.info/files/iview452_x64.zip",
+                "https://www.irfanview.info/files/iview452_plugins_x64.zip",
                 "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "8112213E9A8AA406712E326523A5A8090D6A827EE5FBAF9EF055EB69E7E8D859",
-                "c938d7ae4dcbb2b531f416cffb772bd91b3c8eba84d7a787d936f962aa80e00e",
+                "6781bda1daae4afa7003f8f020d67af89e607be8d22430b30abd803f57785f2b",
+                "53d4668a22e91831860654ce5b0d57d9ebba0ac85cd2f08852d5e6317464a968",
                 "638d14fd21d213d0bab3549917ea3339eaf046e48f472147bce3e75a3e396de5"
             ],
             "shortcuts": [
@@ -23,13 +23,13 @@
         },
         "32bit": {
             "url": [
-                "http://irfanview.info/files/iview450.zip",
-                "http://www.fosshub.com/IrfanView.html/irfanview_plugins_450.zip",
+                "https://www.irfanview.info/files/iview452.zip",
+                "https://www.irfanview.info/files/iview452_plugins.zip",
                 "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "79AB64955C1B877AD8C383E1C7B730E446580D56698C029FA65679613002A56B",
-                "d2b68e9cfd82806e8de0d4c77465f66e1f70f165ee8e9b714ee2aa01f9545c43",
+                "47eb3500dafc944fa3be74516a57eb6f2b9287a68ac1f03d5f5067ac2afa43e0",
+                "a03ef6185b145b91577686c85fa54c2ed15a2684cece7c8b4b1047e74fa36031",
                 "638d14fd21d213d0bab3549917ea3339eaf046e48f472147bce3e75a3e396de5"
             ],
             "shortcuts": [
