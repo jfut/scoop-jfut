@@ -1,10 +1,10 @@
 {
     "homepage": "https://sites.google.com/site/craftware/clnch",
-    "version": "3.33",
+    "version": "3.35",
     "license": "https://github.com/crftwr/clnch/blob/master/license/python_license.txt",
     "description": "CraftLaunch",
-    "url": "http://crftwr.github.io/clnch/download/clnch_333.zip",
-    "hash": "b8f2a1afbff428fdac8728a0f5bd7400ed4c0d063b905a1ad35322141c9d1261",
+    "url": "http://crftwr.github.io/clnch/download/clnch_335.zip",
+    "hash": "288c330edec8a4ed60f4a93338c04cbf3aaabc301b9affab0f24b1f17c679ea0",
     "extract_dir": "clnch",
     "shortcuts": [
         [
@@ -12,15 +12,17 @@
             "CraftLaunch"
         ]
     ],
-    "post_install": "
-        $shortcuts = @(arch_specific 'shortcuts' $manifest $arch)
-        $shortcutName = $shortcuts[0].item(1)
-        $scoop_startmenu_folder = shortcut_folder $global
-        $wsShell = New-Object -ComObject WScript.Shell
-        $shortcut = $wsShell.CreateShortcut(\"$scoop_startmenu_folder\\$shortcutName.lnk\")
-        $shortcut.WorkingDirectory = \"$dir\"
-        $shortcut.Save()
-    ",
+    "post_install": [
+        "",
+        "$shortcuts = @(arch_specific 'shortcuts' $manifest $arch)",
+        "$shortcutName = $shortcuts[0].item(1)",
+        "$scoop_startmenu_folder = shortcut_folder $global",
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut(\"$scoop_startmenu_folder\\$shortcutName.lnk\")",
+        "$shortcut.WorkingDirectory = \"$dir\"",
+        "$shortcut.Save()",
+        ""
+    ],
     "checkver": {
         "url": "https://sites.google.com/site/craftware/clnch",
         "re": "CraftLaunch ver ([\\d.]+)</a>"
