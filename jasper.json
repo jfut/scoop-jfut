@@ -1,11 +1,11 @@
 {
     "homepage": "https://jasperapp.io/",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jasperapp/jasper/releases/download/v0.7.1/jasper_v0.7.1_windows.zip",
-            "hash": "7490d4e9c7fb1dd5c63c2e344c8bc622d085cbe6310184d0d23a42a828e2f177",
+            "url": "https://github.com/jasperapp/jasper/releases/download/v0.7.2/jasper_v0.7.2_windows.zip",
+            "hash": "fc22b631895ea98b1b5f347a80c1da48e3bc6675dcc781531f19fa20cb40af31",
             "extract_dir": "Jasper"
         }
     },
