@@ -1,15 +1,15 @@
 {
     "homepage": "https://about.mattermost.com/",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.mattermost.com/desktop/4.2.0/mattermost-setup-4.2.0-win64.exe#/dl.7z",
-            "hash": "2acb15efcf50cd0adfa7fc28e2163fd97262cbfe9b12f86b0dc152569b84de72"
+            "url": "https://releases.mattermost.com/desktop/4.2.1/mattermost-setup-4.2.1-win64.exe#/dl.7z",
+            "hash": "c6c07c50719c52aac98281fe00695a2392441fde67c3114b1c4d014515d63c6b"
         },
         "32bit": {
-            "url": "https://releases.mattermost.com/desktop/4.2.0/mattermost-setup-4.2.0-win32.exe#/dl.7z",
-            "hash": "69ea6a9b325caac5960a9ac429131f906d7249636b8bf1c409654058051c669b"
+            "url": "https://releases.mattermost.com/desktop/4.2.1/mattermost-setup-4.2.1-win32.exe#/dl.7z",
+            "hash": "6f437fb6c3cdaf52a3349ff1e5d2b4b304523060a600d200c6fe9d82b540cadf"
         }
     },
     "installer": {
