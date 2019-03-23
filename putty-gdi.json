@@ -1,16 +1,16 @@
 {
     "homepage": "http://ice.hotmint.com/putty/",
-    "version": "20180413",
+    "version": "20190321",
     "license": "http://www.chiark.greenend.org.uk/~sgtatham/putty/licence.html",
     "architecture": {
         "64bit": {
-            "url": "http://ice.hotmint.com/putty/putty-gdi-20180413.zip",
-            "hash": "1c5f4cadf9b55c98e49e66d36f5a91bcd9ff5f2c4e6ac03b356eaf0ea8c9b52a",
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190321.zip",
+            "hash": "1930a79f6f27a2a7e5980136aeb961588e87a88e81fd7d2fd0a3381692b3cfc6",
             "extract_dir": "putty-gdi-20180413\\x64"
         },
         "32bit": {
-            "url": "http://ice.hotmint.com/putty/putty-gdi-20180413.zip",
-            "hash": "1c5f4cadf9b55c98e49e66d36f5a91bcd9ff5f2c4e6ac03b356eaf0ea8c9b52a",
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190321.zip",
+            "hash": "1930a79f6f27a2a7e5980136aeb961588e87a88e81fd7d2fd0a3381692b3cfc6",
             "extract_dir": "putty-gdi-20180413"
         }
     },
@@ -46,7 +46,7 @@
         "re": "putty-gdi-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "http://ice.hotmint.com/putty/putty-gdi-$version.zip",
+        "url": "http://ice.hotmint.com/putty/down/putty-gdi-$version.zip",
         "extract_dir": "putty-gdi-$version"
     }
 }
