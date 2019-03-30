@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.skype.com/",
-    "version": "8.41.0.54",
+    "version": "8.42.0.60",
     "license": "https://www.skype.com/en/legal/tou-connect/",
     "url": "https://go.skype.com/windows.desktop.download#/SkypeSetup.exe",
-    "hash": "6d880eea5603147eda5bfa7ac8cb6294d184ac5fbc46ea357380a45a9814fa51",
+    "hash": "d6f8bd04db44a958dbea6809a12351c8edef9c873c2705c3de64ba96bbf4bd20",
     "installer": {
         "file": "SkypeSetup.exe",
         "args": "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LOG=$dir\\install.log /DIR=$dir"
