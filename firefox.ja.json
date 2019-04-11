@@ -1,14 +1,14 @@
 {
     "homepage": "https://www.mozilla.org/ja/firefox/new/",
-    "version": "66.0.2",
+    "version": "66.0.3",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-66.0.2-SSL&os=win64&lang=ja#/firefox-setup.exe",
-            "hash": "5016764cc61ff8a2fb9836366c682deb42d90d2db82cc81526aa27bf565bba33"
+            "url": "https://download.mozilla.org/?product=firefox-66.0.3-SSL&os=win64&lang=ja#/firefox-setup.exe",
+            "hash": "085bbb6789bcc60c16a6ea1a7ee3cd22425c623179944f96996c5be11e48fd9e"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-66.0.2-SSL&os=win&lang=ja#/firefox-setup.exe",
-            "hash": "c6a36a4d2042c4bee810fe3ba48c2129131b9e72c753a2b0413440e833d97312"
+            "url": "https://download.mozilla.org/?product=firefox-66.0.3-SSL&os=win&lang=ja#/firefox-setup.exe",
+            "hash": "c205124eaa157b05163001429be4500eeba2e6b98a958595a8c9040627b9766e"
         }
     },
     "bin": "firefox.exe",
@@ -29,7 +29,7 @@
     },
     "checkver": {
         "url": "https://www.mozilla.org/ja/firefox/notes/",
-        "re": "<h2>([\\d.]+)</h2>"
+        "re": "data-latest-firefox=\"([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
