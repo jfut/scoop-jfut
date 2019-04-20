@@ -4,7 +4,7 @@
     "license": "MIT",
     "_comment": "OSDN don't support direct download with User-Agent: Scoop/1.0",
     "url": "https://jaist.dl.osdn.jp/crystaldiskinfo/70295/CrystalDiskInfo8_0_0.zip",
-    "hash": "be8fd398af04066739c6ff8b87c907f8a3160794f6b5d582a966fc1497be1702",
+    "hash": "8e98d3be4f54d85c4da19ecc7bc602ae7ebeb72bff90e57c9886794d114742c7",
     "architecture": {
         "64bit": {
             "shortcuts": [
