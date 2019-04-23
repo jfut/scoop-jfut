@@ -1,22 +1,24 @@
 {
     "homepage": "http://nagatsuki.la.coocan.jp/bunbackup/",
-    "version": "5.0",
+    "version": "6.0",
     "_comment": "license from Readme.txt",
     "license": "BunBackupはフリーソフトです 個人使用、企業内での業務使用に関わらず、BunBackupの使用は自由です",
     "architecture": {
         "64bit": {
-            "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS500.zip",
-            "hash": "9f6619d76ca70447fcabd40d69722348985d0db53dc5fbd81276d99bf5b357ee"
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/64bit/BunBackupS600.zip",
+            "hash": "b752056905e1d5db0f1d10572efae20035dad9e64744ce7e4125601dbab06fee"
         },
         "32bit": {
-            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup500.zip",
-            "hash": "c4aab1e95f1888db277e09777f18dac5c62352241bbbbe5eecf6fb6068870033"
+            "url": "http://nagatsuki.la.coocan.jp/bunbackup/download/BunBackup600.zip",
+            "hash": "76887cb86fd9f79b2e653b652f8fd7b0670423ec45d17790c553ac955fbbd7fd"
         }
     },
-    "pre_install": "
-        if(!(Test-Path(\"$dir\\BunBackup.env\"))) { New-Item \"$dir\\BunBackup.env\" | Out-Null }
-        if(!(Test-Path(\"$dir\\BunBackup.ini\"))) { New-Item \"$dir\\BunBackup.ini\" | Out-Null }
-    ",
+    "pre_install": [
+        "",
+        "if(!(Test-Path(\"$dir\\BunBackup.env\"))) { New-Item \"$dir\\BunBackup.env\" | Out-Null }",
+        "if(!(Test-Path(\"$dir\\BunBackup.ini\"))) { New-Item \"$dir\\BunBackup.ini\" | Out-Null }",
+        ""
+    ],
     "persist": [
         "BunBackup.env",
         "BunBackup.ini"
