@@ -4,12 +4,12 @@
     "license": "Commercial",
     "architecture": {
         "64bit": {
-            "url": "https://textpad.com/download/v82/x64/txpjpn820-64.zip",
-            "hash": "e94e032da05c5353f10fd62cefdebe26af0f9331cbd510a1b22fac8474b9e7bc"
+            "url": "https://textpad.com/download/v82/x64/txpeng820-64.zip",
+            "hash": "f3106fe94e6b092850ddafafc5a226a919609f1b324f89eb771b93897aa1367a"
         },
         "32bit": {
-            "url": "https://textpad.com/download/v82/win32/txpjpn820-32.zip",
-            "hash": "f4d26e87c09df42de3b05dc8543bd6e19964f20e5e5b91ea27e21302763b6356"
+            "url": "https://textpad.com/download/v82/win32/txpeng820-32.zip",
+            "hash": "80f9468bd72ffd87cb0a4688b43f5eaa65f93aa6f968663a6493a8919c1290ea"
         }
     },
     "depends": "lessmsi",
@@ -50,10 +50,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://textpad.com/download/v$majorVersion$minorVersion/x64/txpjpn$cleanVersion-64.zip"
+                "url": "https://textpad.com/download/v$majorVersion$minorVersion/x64/txpeng$cleanVersion-64.zip"
             },
             "32bit": {
-                "url": "https://textpad.com/download/v$majorVersion$minorVersion/win32/txpjpn$cleanVersion-32.zip"
+                "url": "https://textpad.com/download/v$majorVersion$minorVersion/win32/txpeng$cleanVersion-32.zip"
             }
         }
     }
