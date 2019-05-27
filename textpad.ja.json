@@ -1,29 +1,31 @@
 {
     "homepage": "https://textpad.com/products/textpad/",
-    "version": "8.1.2",
+    "version": "8.2.0",
     "license": "Commercial",
     "architecture": {
         "64bit": {
-            "url": "https://textpad.com/download/v81/x64/txpjpn812-64.zip",
-            "hash": "268a3fa26f9938236863d269ad8c185df8c0bee95141e71e3afc67a4c76e9013"
+            "url": "https://textpad.com/download/v82/x64/txpjpn820-64.zip",
+            "hash": "e94e032da05c5353f10fd62cefdebe26af0f9331cbd510a1b22fac8474b9e7bc"
         },
         "32bit": {
-            "url": "https://textpad.com/download/v81/win32/txpjpn812-32.zip",
-            "hash": "7ddf8a3005471f56f28a85a9e04658f843d4ead02419a7bf452aa0954d2fec45"
+            "url": "https://textpad.com/download/v82/win32/txpjpn820-32.zip",
+            "hash": "f4d26e87c09df42de3b05dc8543bd6e19964f20e5e5b91ea27e21302763b6356"
         }
     },
     "depends": "lessmsi",
     "pre_install": "Start-Process -FilePath \"$dir\\setup.exe\" -ArgumentList \"/s /x /b`\"$dir`\" /v`\"/qn`\"\" -Wait",
     "installer": {
-        "script": "
-            # This .msi installer does not support changing TARGETDIR and INSTALLDIR properties.
-            extract_lessmsi \"$dir\\TextPad 8.msi\" \"$dir\\\"
-            movedir \"$dir\\SourceDir\\program files\\TextPad 8\" \"$dir\"
-
-            # Remove unused files
-            Remove-Item \"$dir\\SourceDir\" -Recurse
-            Remove-Item \"$dir\\TextPad 8.msi\"
-        "
+        "script": [
+            "",
+            "# This .msi installer does not support changing TARGETDIR and INSTALLDIR properties.",
+            "extract_lessmsi \"$dir\\TextPad 8.msi\" \"$dir\\\"",
+            "movedir \"$dir\\SourceDir\\program files\\TextPad 8\" \"$dir\"",
+            "",
+            "# Remove unused files",
+            "Remove-Item \"$dir\\SourceDir\" -Recurse",
+            "Remove-Item \"$dir\\TextPad 8.msi\"",
+            ""
+        ]
     },
     "bin": "TextPad.exe",
     "shortcuts": [
