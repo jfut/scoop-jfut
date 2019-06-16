@@ -1,6 +1,9 @@
 {
     "version": "4.52",
-    "license": "Commercial",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.irfanview.com/eula.htm"
+    },
     "homepage": "http://www.irfanview.com/",
     "architecture": {
         "64bit": {
@@ -52,7 +55,8 @@ if (!(Test-Path \"$persist_dir\\i_view32.ini\")) {
    ",
     "persist": [
         "i_view64.ini",
-        "i_view32.ini"
+        "i_view32.ini",
+        "Languages"
     ],
     "extract_to": [
         "",
@@ -60,6 +64,6 @@ if (!(Test-Path \"$persist_dir\\i_view32.ini\")) {
     ],
     "checkver": {
         "url": "http://www.irfanview.com/",
-        "re": "<strong>version ([\\d\\.-]+)</strong>"
+        "re": ">\\s*version\\s+([\\d\\.-]+)\\s*<"
     }
 }
