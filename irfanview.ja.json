@@ -1,5 +1,5 @@
 {
-    "version": "4.52",
+    "version": "4.53",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.irfanview.com/eula.htm"
@@ -8,14 +8,14 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://www.irfanview.info/files/iview452_x64.zip",
-                "https://www.irfanview.info/files/iview452_plugins_x64.zip",
-                "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
+                "https://www.irfanview.info/files/iview453_x64.zip",
+                "https://www.irfanview.info/files/iview453_plugins_x64.zip",
+                "https://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "6781bda1daae4afa7003f8f020d67af89e607be8d22430b30abd803f57785f2b",
-                "53d4668a22e91831860654ce5b0d57d9ebba0ac85cd2f08852d5e6317464a968",
-                "e21ef72e8555f4def04e9a0f2e85fd84714e017ab6a9e87b5b3e682f8f73d266"
+                "941056da4f50df44eeef46ca875255bd3d09c3aaf1bdfffad5f65de0a515ff02",
+                "d5e8ae1734264287e7b442fc062899c206c54bbd423304e125c4b1d1c58d28b1",
+                "fe24a99c592da56470025cd246ea32354d18c409fc668a990a23df103d4dc4ce"
             ],
             "shortcuts": [
                 [
@@ -26,14 +26,14 @@
         },
         "32bit": {
             "url": [
-                "https://www.irfanview.info/files/iview452.zip",
-                "https://www.irfanview.info/files/iview452_plugins.zip",
-                "http://www.irfanview.net/lang/irfanview_lang_japanese.zip"
+                "https://www.irfanview.info/files/iview453.zip",
+                "https://www.irfanview.info/files/iview453_plugins.zip",
+                "https://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "47eb3500dafc944fa3be74516a57eb6f2b9287a68ac1f03d5f5067ac2afa43e0",
-                "a03ef6185b145b91577686c85fa54c2ed15a2684cece7c8b4b1047e74fa36031",
-                "638d14fd21d213d0bab3549917ea3339eaf046e48f472147bce3e75a3e396de5"
+                "89c0d29424299f9b0d36248884059baf815f0b5d4adc9c3b426f61fe68f1444a",
+                "1ec241d26a0f061aa5499c606967690de8979c82fdce4a5724b4e18daa099de3",
+                "fe24a99c592da56470025cd246ea32354d18c409fc668a990a23df103d4dc4ce"
             ],
             "shortcuts": [
                 [
