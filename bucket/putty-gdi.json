@@ -1,16 +1,16 @@
 {
     "homepage": "http://ice.hotmint.com/putty/",
-    "version": "20190321",
+    "version": "20190724",
     "license": "http://www.chiark.greenend.org.uk/~sgtatham/putty/licence.html",
     "architecture": {
         "64bit": {
-            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190321.zip",
-            "hash": "1930a79f6f27a2a7e5980136aeb961588e87a88e81fd7d2fd0a3381692b3cfc6",
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190724.zip",
+            "hash": "5c19d5225d4128485f2eb2dd81f801e62781efbf87b3edcc743bb853adc44462",
             "extract_dir": "putty-gdi-20190321\\x64"
         },
         "32bit": {
-            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190321.zip",
-            "hash": "1930a79f6f27a2a7e5980136aeb961588e87a88e81fd7d2fd0a3381692b3cfc6",
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190724.zip",
+            "hash": "5c19d5225d4128485f2eb2dd81f801e62781efbf87b3edcc743bb853adc44462",
             "extract_dir": "putty-gdi-20190321"
         }
     },
