@@ -1,0 +1,54 @@
+{
+    "homepage": "http://ice.hotmint.com/putty/",
+    "description": "A free implementation of SSH and Telnet, along with an xterm terminal emulator, GDI, and Japanese version.",
+    "version": "20190724",
+    "license": "http://www.chiark.greenend.org.uk/~sgtatham/putty/licence.html",
+    "architecture": {
+        "64bit": {
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190724.zip",
+            "hash": "5c19d5225d4128485f2eb2dd81f801e62781efbf87b3edcc743bb853adc44462",
+            "extract_dir": "putty-gdi-20190724"
+        }
+    },
+    "bin": [
+        "pageant.exe",
+        "plink.exe",
+        "pscp.exe",
+        "psftp.exe",
+        "putty.exe",
+        "puttygen.exe",
+        "puttytel.exe"
+    ],
+    "shortcuts": [
+        [
+            "putty.exe",
+            "PuTTY"
+        ],
+        [
+            "pageant.exe",
+            "Pageant"
+        ],
+        [
+            "psftp.exe",
+            "PSFTP"
+        ],
+        [
+            "puttygen.exe",
+            "PuTTYgen"
+        ]
+    ],
+    "post_install": [
+        "Copy-Item \"$dir\\ja-JP\\pageant.lng\" \"$dir\"",
+        "Copy-Item \"$dir\\ja-JP\\putty.lng\" \"$dir\"",
+        "Copy-Item \"$dir\\ja-JP\\puttygen.lng\" \"$dir\"",
+        "Copy-Item \"$dir\\ja-JP\\puttytel.lng\" \"$dir\""
+    ],
+    "checkver": {
+        "url": "http://ice.hotmint.com/putty/",
+        "re": "putty-gdi-([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "http://ice.hotmint.com/putty/down/putty-gdi-$version.zip",
+        "extract_dir": "putty-gdi-$version"
+    }
+}
