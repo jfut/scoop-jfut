@@ -6,8 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190724.zip",
-            "hash": "5c19d5225d4128485f2eb2dd81f801e62781efbf87b3edcc743bb853adc44462",
+            "hash": "9a8d0d1687a1999d086bfd2fc7505cc29cb47f9ff18d969c30a44368027fc7ff",
             "extract_dir": "putty-gdi-20190724"
+        },
+        "32bit": {
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20190724.zip",
+            "hash": "9a8d0d1687a1999d086bfd2fc7505cc29cb47f9ff18d969c30a44368027fc7ff",
+            "extract_dir": "putty-gdi-20190724\\x86"
         }
     },
     "bin": [
@@ -42,7 +47,15 @@
         "re": "putty-gdi-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "http://ice.hotmint.com/putty/down/putty-gdi-$version.zip",
-        "extract_dir": "putty-gdi-$version"
+        "architecture": {
+            "64bit": {
+                "url": "http://ice.hotmint.com/putty/down/putty-gdi-$version.zip",
+                "extract_dir": "putty-gdi-$version"
+            },
+            "32bit": {
+                "url": "http://ice.hotmint.com/putty/down/putty-gdi-$version.zip",
+                "extract_dir": "putty-gdi-$version\\x86"
+            }
+        }
     }
 }
