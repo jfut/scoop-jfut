@@ -1,10 +1,10 @@
 {
     "homepage": "https://crystalmark.info/download/index-e.html",
-    "version": "8.2.0",
+    "version": "8.2.1",
     "license": "MIT",
     "_comment": "OSDN don't support direct download with User-Agent: Scoop/1.0",
-    "url": "http://iij.dl.osdn.jp/crystaldiskinfo/71284/CrystalDiskInfo8_2_0.zip",
-    "hash": "52b4e524fb07d749555a2bf8d2838e7211eeaca05041f854c91f9dba5dc7ba27",
+    "url": "http://iij.dl.osdn.jp/crystaldiskinfo/71284/CrystalDiskInfo8_2_1.zip",
+    "hash": "9162fbbd222a13fcf1ff87962fe8b44295813ed2f33683c7cc214abb2c9d1a57",
     "architecture": {
         "64bit": {
             "shortcuts": [
