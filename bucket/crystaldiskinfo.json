@@ -3,7 +3,7 @@
     "version": "8.2.1",
     "license": "MIT",
     "_comment": "OSDN don't support direct download with User-Agent: Scoop/1.0",
-    "url": "http://iij.dl.osdn.jp/crystaldiskinfo/71284/CrystalDiskInfo8_2_1.zip",
+    "url": "http://iij.dl.osdn.jp/crystaldiskinfo/71394/CrystalDiskInfo8_2_1.zip",
     "hash": "9162fbbd222a13fcf1ff87962fe8b44295813ed2f33683c7cc214abb2c9d1a57",
     "architecture": {
         "64bit": {
