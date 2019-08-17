@@ -1,13 +1,14 @@
 {
     "homepage": "http://www.imgburn.com/",
+    "description": "A lightweight CD / DVD / HD DVD / Blu-ray burning application. Japanese version.",
     "version": "2.5.8.0",
     "license": "http://www.imgburn.com/",
     "url": [
-        "http://download.imgburn.com/SetupImgBurn_2.5.8.0.exe#/dl.7z",
+        "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/imgburn/SetupImgBurn_2.5.8.0.exe#/dl.7z",
         "http://download.imgburn.com/translations/japanese.zip"
     ],
     "hash": [
-        "d7dea2819edc77bc44db637cd324e61942b54930cb3034f8f1a417b7dd27b514",
+        "49aa06eaffe431f05687109fee25f66781abbe1108f3f8ca78c79bdec8753420",
         "e03cf389b6fec7dbaa94bce4918df2c966e5fd3d0b694ace1a0ce36f5ce5e1f2"
     ],
     "pre_install": "
@@ -24,8 +25,5 @@
     "checkver": {
         "url": "http://www.imgburn.com/",
         "re": "Current version: ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://download.imgburn.com/SetupImgBurn_$version.exe#/dl.7z"
     }
 }
