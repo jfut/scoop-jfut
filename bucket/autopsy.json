@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.sleuthkit.org/autopsy/",
-    "version": "4.12.0",
+    "version": "4.13.0",
     "license": "Apache 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.12.0/autopsy-4.12.0-64bit.msi",
-            "hash": "67242c5ab31d60c1b5a800ebf51dcaf5839b640590fed548261723dce8833c0b",
+            "url": "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.13.0/autopsy-4.13.0-64bit.msi",
+            "hash": "f5914da2d309df7f7333aa70dea401a6c3d5d955cd2418bfeee581caccc10023",
             "shortcuts": [
                 [
                     "bin/autopsy64.exe",
@@ -14,8 +14,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.12.0/autopsy-4.12.0-32bit.msi",
-            "hash": "437010071f65eca7bbe640b01c2212d8ebdffe6ee36784c96b07bac151e16d8b",
+            "url": "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.13.0/autopsy-4.13.0-32bit.msi",
+            "hash": "9df7b2f9753b2d12b2426e158d2c38c8a99eb404690001f4937c5f8b723ba255",
             "shortcuts": [
                 [
                     "bin/autopsy.exe",
