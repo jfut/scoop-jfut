@@ -1,5 +1,5 @@
 {
-    "version": "4.53",
+    "version": "4.54",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.irfanview.com/eula.htm"
@@ -8,13 +8,13 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://www.irfanview.info/files/iview453_x64.zip",
-                "https://www.irfanview.info/files/iview453_plugins_x64.zip",
+                "https://www.irfanview.info/files/iview454_x64.zip",
+                "https://www.irfanview.info/files/iview454_plugins_x64.zip",
                 "https://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "941056da4f50df44eeef46ca875255bd3d09c3aaf1bdfffad5f65de0a515ff02",
-                "d5e8ae1734264287e7b442fc062899c206c54bbd423304e125c4b1d1c58d28b1",
+                "735bc1dd67de2882c729fa6f144e6dcfd237e90981a1ae8792ce48c1500d740b",
+                "29150d42c2947561e0c8f7711c4d2eb7703d8aed016091911a64dde3db94cc03",
                 "fe24a99c592da56470025cd246ea32354d18c409fc668a990a23df103d4dc4ce"
             ],
             "shortcuts": [
@@ -32,13 +32,13 @@
         },
         "32bit": {
             "url": [
-                "https://www.irfanview.info/files/iview453.zip",
-                "https://www.irfanview.info/files/iview453_plugins.zip",
+                "https://www.irfanview.info/files/iview454.zip",
+                "https://www.irfanview.info/files/iview454_plugins.zip",
                 "https://www.irfanview.net/lang/irfanview_lang_japanese.zip"
             ],
             "hash": [
-                "89c0d29424299f9b0d36248884059baf815f0b5d4adc9c3b426f61fe68f1444a",
-                "1ec241d26a0f061aa5499c606967690de8979c82fdce4a5724b4e18daa099de3",
+                "d17228fb23919eec7f139db6827a998737ec981cc0f718c8681e692c53742aef",
+                "201fee6a98bca08e3a3d3be455287e7eb6a51358dab9d544bc67076082df9ff8",
                 "fe24a99c592da56470025cd246ea32354d18c409fc668a990a23df103d4dc4ce"
             ],
             "shortcuts": [
