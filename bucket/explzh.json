@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.ponsoftware.com/en/",
-    "version": "7.93",
+    "version": "7.94",
     "license": "https://www.ponsoftware.com/en/archiver/regist.htm",
     "architecture": {
         "64bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz793_en_x64.exe#/dl.7z",
-            "hash": "82efbf09a8787c48564e90db82d69c18195dd8311a658c2a3a4525a420496776"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz794_en_x64.exe#/dl.7z",
+            "hash": "914a8896cbb0a80668ccfff952a7ab95cea21e0ff0c83558da0d656abf7dc513"
         },
         "32bit": {
-            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz793_en.exe#/dl.7z",
-            "hash": "4476d6683cf4289753502ac38c811bb7b86be6e5e9915d15ffa0b5a9409789a7"
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz794_en.exe#/dl.7z",
+            "hash": "a1cfb0ffa7bdfc8d89b6e55832557606960f63fef5a12cf4f483380e31b12bad"
         }
     },
     "installer": {
