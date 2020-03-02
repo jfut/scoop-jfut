@@ -1,10 +1,10 @@
 {
     "homepage": "https://sites.google.com/site/craftware/clnch",
-    "version": "3.36",
+    "version": "3.38",
     "license": "https://github.com/crftwr/clnch/blob/master/license/python_license.txt",
     "description": "CraftLaunch",
-    "url": "http://crftwr.github.io/clnch/download/clnch_336.zip",
-    "hash": "7bf898c17f45946c866dd01f8b5d301965fb7e8a52f9c72cc7a6975b9784e1d5",
+    "url": "http://crftwr.github.io/clnch/download/clnch_338.zip",
+    "hash": "1657b0d08c6bee4170223176848053187bf1708e09483e1b8cd77c040a02d37a",
     "extract_dir": "clnch",
     "shortcuts": [
         [
