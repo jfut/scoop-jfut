@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.rimarts.co.jp/becky.htm",
-    "version": "2.75.00",
+    "version": "2.75.01",
     "license": "Commercial",
-    "url": "http://www.rimarts.jp/downloads/B2/bk27500.zip",
-    "hash": "80a133f9f0353af5521f1331f3779e9240096857f6cb7204d0c3b269a154f0e4",
+    "url": "http://www.rimarts.jp/downloads/B2/bk27501.zip",
+    "hash": "c67a7db6db39d9d079f4e7759c761ef7df5976f0dadffb62de7297bc71927c4f",
     "shortcuts": [
         [
             "B2.exe",
