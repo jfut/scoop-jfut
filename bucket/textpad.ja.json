@@ -23,7 +23,7 @@
             "set_config MSIEXTRACT_USE_LESSMSI $True",
             "",
             "# This .msi installer does not support changing TARGETDIR and INSTALLDIR properties.",
-            "Expand-MsiArchive \"$dir\\TextPad 8.msi\" \"$extracted\"",
+            "Expand-MsiArchive \"$dir\\TextPad 8-4.msi\" \"$extracted\"",
             "movedir \"$extracted\\program files\\TextPad 8\" \"$dir\"",
             "",
             "# Restore config",
@@ -31,7 +31,7 @@
             "",
             "# Remove unused files",
             "Remove-Item \"$extracted\" -Recurse",
-            "Remove-Item \"$dir\\TextPad 8.msi\"",
+            "Remove-Item \"$dir\\TextPad 8-4.msi\"",
             "Remove-Item \"$dir\\setup.exe\"",
             ""
         ]
