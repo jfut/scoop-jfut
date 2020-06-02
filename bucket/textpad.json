@@ -1,15 +1,15 @@
 {
     "homepage": "https://textpad.com/products/textpad/",
-    "version": "8.4.0",
+    "version": "8.4.1",
     "license": "Commercial",
     "architecture": {
         "64bit": {
-            "url": "https://textpad.com/download/v84/x64/txpeng840-64.zip",
-            "hash": "c09856dec207edf2025915ff15d5eb85a1f8dc4f0ebf8b100cf03c93a155872c"
+            "url": "https://textpad.com/download/v84/x64/txpeng841-64.zip",
+            "hash": "66cdd78e795780922695dce84be8f3ff1b6f8ac98c48826cd3af4ca68dce2d48"
         },
         "32bit": {
-            "url": "https://textpad.com/download/v84/win32/txpeng840-32.zip",
-            "hash": "7e46b5920ea6c0be894eb1f9fd64aadb50d0b864c7370921e9716fddfcce4453"
+            "url": "https://textpad.com/download/v84/win32/txpeng841-32.zip",
+            "hash": "38fd4dd81ad5e8cd0752f222e9cbba58d9f3f429628f66edb986e53a8742ea4b"
         }
     },
     "depends": "lessmsi",
