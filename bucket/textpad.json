@@ -50,10 +50,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://textpad.com/download/v$majorVersion$minorVersion/x64/txpeng$cleanVersion-64.zip"
+                "url": "https://www.textpad.com/file?path=v$majorVersion$minorVersion/x64/txpeng$cleanVersion-64.zip"
             },
             "32bit": {
-                "url": "https://textpad.com/download/v$majorVersion$minorVersion/win32/txpeng$cleanVersion-32.zip"
+                "url": "https://www.textpad.com/file?path=v$majorVersion$minorVersion/win32/txpeng$cleanVersion-32.zip"
             }
         }
     }
