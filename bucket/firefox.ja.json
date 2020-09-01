@@ -1,14 +1,14 @@
 {
     "homepage": "https://www.mozilla.org/ja/firefox/new/",
-    "version": "80.0",
+    "version": "80.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-80.0-SSL&os=win64&lang=ja#/firefox-setup.exe",
-            "hash": "c87bb0fc59799fb5648ebf4f6707ce09eac6442d8cb444c5fdddec6b6983b1d5"
+            "url": "https://download.mozilla.org/?product=firefox-80.0.1-SSL&os=win64&lang=ja#/firefox-setup.exe",
+            "hash": "078b11914e4e856b97bee832c977478dc6af33b0010bb7c2f145000772170442"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-80.0-SSL&os=win&lang=ja#/firefox-setup.exe",
-            "hash": "124296513394cc7288a634d25cc61b041f160b23b90cc07d5e797be9f5eda0fa"
+            "url": "https://download.mozilla.org/?product=firefox-80.0.1-SSL&os=win&lang=ja#/firefox-setup.exe",
+            "hash": "5e4de3af89aa4f0a7f244bb8576c5294bf2b066d8ff8f6c0916b479853e2c837"
         }
     },
     "bin": "firefox.exe",
