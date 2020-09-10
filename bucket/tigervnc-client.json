@@ -1,15 +1,15 @@
 {
     "homepage": "http://tigervnc.org",
-    "version": "1.10.1",
+    "version": "1.11.0",
     "license": "GPLv2",
     "architecture": {
         "64bit": {
-            "url": "https://bintray.com/tigervnc/stable/download_file?file_path=vncviewer64-1.10.1.exe#/vncviewer.exe",
-            "hash": "7a92da17fc76f44b0c25c605965f957d52f412ace88e6a690206ea70769b7e68"
+            "url": "https://bintray.com/tigervnc/stable/download_file?file_path=vncviewer64-1.11.0.exe#/vncviewer.exe",
+            "hash": "9d8b2fb3f451f7e2160500068df12b0792afca89d999dfb62d4d9bc591a5d910"
         },
         "32bit": {
-            "url": "https://bintray.com/tigervnc/stable/download_file?file_path=vncviewer-1.10.1.exe#/vncviewer.exe",
-            "hash": "0f442dd975637bb8aad4621360e6b17fed9c8b554361a018e173c255e20be93d"
+            "url": "https://bintray.com/tigervnc/stable/download_file?file_path=vncviewer-1.11.0.exe#/vncviewer.exe",
+            "hash": "e54b179d03e2e940e3f88ba64489e52614fb46bef1fca6ef8aedad06afb698bc"
         }
     },
     "bin": "vncviewer.exe",
