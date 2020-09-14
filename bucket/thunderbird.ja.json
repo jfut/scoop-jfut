@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.mozilla.org/ja/thunderbird/",
-    "version": "78.2.1",
-    "url": "https://download.mozilla.org/?product=thunderbird-78.2.1-SSL&os=win&lang=ja#/thunderbird-setup.exe",
-    "hash": "sha512:3c9693c18932004acb757f6c3ee3350c0c59bfc6e3cb8b6ea744e5551df4cf05c75683d276dd1f1da3b9a6f417a4a62236d12f9c711f123b7aabf1b269dae1d4",
+    "version": "78.2.2",
+    "url": "https://download.mozilla.org/?product=thunderbird-78.2.2-SSL&os=win&lang=ja#/thunderbird-setup.exe",
+    "hash": "sha512:821ad3275f2b614061e1725593c1a95e6c5033adde97670c697f396d8839e4215c5482b1780514fa40c5cf3af1d6ae358cd9f0a1947a1cef4d094033b73a991d",
     "bin": "thunderbird.exe",
     "shortcuts": [
         [
