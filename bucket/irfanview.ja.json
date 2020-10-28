@@ -56,11 +56,11 @@
         }
     },
     "pre_install": [
-        "if (!(Test-Path(\"$dir/i_view64.ini\"))) {",
+        "if (!(Test-Path(\"$persist_dir/i_view64.ini\"))) {",
         "   New-Item \"$dir/i_view64.ini\" | Out-Null",
         "   write-output \"[Language]`r`nDLL=JAPANESE.DLL`r`nLang=Japanese\" | Out-File -encoding \"ASCII\" $dir\\i_view64.ini",
         "}",
-        "if (!(Test-Path(\"$dir/i_view32.ini\"))) {",
+        "if (!(Test-Path(\"$persist_dir/i_view32.ini\"))) {",
         "   New-Item \"$dir/i_view32.ini\" | Out-Null",
         "   write-output \"[Language]`r`nDLL=JAPANESE.DLL`r`nLang=Japanese\" | Out-File -encoding \"ASCII\" $dir\\i_view32.ini",
         "}"
