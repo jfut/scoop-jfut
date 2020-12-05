@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.asukaze.net/soft/cassava/",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "license": "Freeware",
-    "url": "https://www.asukaze.net/soft/cassava/arc/Cassava2_2_3.zip",
-    "hash": "11c7d5c2ee522dc30e512c0f70a54d52a3da4be27345e71c58eb3f0344cc1840",
+    "url": "https://www.asukaze.net/soft/cassava/arc/Cassava2_2_4.zip",
+    "hash": "58f66b0a0501a730c30f0e2d6508054ac4ae2e5f5b51e3bff1b1c37db91640d3",
     "extract_dir": "Cassava",
     "bin": "Cassava.exe",
     "shortcuts": [
