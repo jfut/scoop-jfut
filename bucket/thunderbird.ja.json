@@ -1,8 +1,19 @@
 {
-    "homepage": "https://www.mozilla.org/ja/thunderbird/",
     "version": "78.9.0",
-    "url": "https://download.mozilla.org/?product=thunderbird-78.9.0-SSL&os=win&lang=ja#/thunderbird-setup.exe",
-    "hash": "sha512:fa0ad11f3bdbfd0f758bd74dd6cd1957907d3eb4c32f07b09ca87c2c5aa4ab963fbf9909147e077a71faa697b97221a024795668cd793504c23d66960824a6d9",
+    "description": "A free email application that’s easy to set up and customize.",
+    "homepage": "https://www.thunderbird.net/ja/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/78.9.0/win64/ja/Thunderbird%20Setup%2078.9.0.exe#/dl.7z",
+            "hash": "sha512:0726a2647e3abe0dfd92eb475e3bf2df71f2ea2ab9680735d9c1c147c5155ae88fd7db303292ffa457eaf8b529ecd6e3f442b4bc6ceb74bc8889fa986a734961"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/78.9.0/win32/ja/Thunderbird%20Setup%2078.9.0.exe#/dl.7z",
+            "hash": "sha512:fa0ad11f3bdbfd0f758bd74dd6cd1957907d3eb4c32f07b09ca87c2c5aa4ab963fbf9909147e077a71faa697b97221a024795668cd793504c23d66960824a6d9"
+        }
+    },
+    "extract_dir": "core",
     "bin": "thunderbird.exe",
     "shortcuts": [
         [
@@ -10,24 +21,26 @@
             "Mozilla Thunderbird"
         ]
     ],
-    "pre_install": "echo \"[Install]`nInstallDirectoryPath=$dir`nQuickLaunchShortcut=false`nDesktopShortcut=false`nStartMenuShortcuts=false\" | sc \"$dir\\install.ini\"",
-    "installer": {
-        "file": "thunderbird-setup.exe",
-        "args": "/INI=$dir\\install.ini"
-    },
-    "uninstaller": {
-        "file": "uninstall\\helper.exe",
-        "args": "/S"
-    },
     "checkver": {
-        "url": "https://www.mozilla.org/ja/thunderbird/all/",
-        "re": "thunderbird-([\\d.]+)-SSL&os=win&lang=ja"
+        "url": "https://www.thunderbird.net/thunderbird/all/",
+        "regex": "thunderbird/([\\d.]+)/"
     },
     "autoupdate": {
-        "url": "https://download.mozilla.org/?product=thunderbird-$version-SSL&os=win&lang=ja#/thunderbird-setup.exe",
-        "hash": {
-            "find": "([a-fA-F0-9]{128})\\s+(?:win32/ja/Thunderbird Setup ([\\d.]+).exe)",
-            "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$version/SHA512SUMS"
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win64/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/ja/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win32/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/ja/$basename"
+                }
+            }
         }
     }
 }
