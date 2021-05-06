@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/ffftp/ffftp",
-    "version": "5.0",
+    "version": "5.1",
     "license": "BSD 3-clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ffftp/ffftp/releases/download/v5.0/ffftp-v5.0-x64.zip",
-            "hash": "a209ef5632f8285a9c5adc3f362d01e01ddf59969ff741c5b47f9db385b32e6a"
+            "url": "https://github.com/ffftp/ffftp/releases/download/v5.1/ffftp-v5.1-x64.zip",
+            "hash": "695ab2ab8dbe42d22d2a682d1def5f07c478ae8bb65c1d084c5e970422d78340"
         },
         "32bit": {
-            "url": "https://github.com/ffftp/ffftp/releases/download/v5.0/ffftp-v5.0-x86.zip",
-            "hash": "db8c9a13a02453aeae97911447f0d2560e61637d33e236a034c79b8bc7366208"
+            "url": "https://github.com/ffftp/ffftp/releases/download/v5.1/ffftp-v5.1-x86.zip",
+            "hash": "dd7496b669b519639920c9792b6f3945a80127b4647d26d5c9abca74c2a4bf22"
         }
     },
     "pre_install": "if (-not (Test-Path \"$persist_dir\\ffftp.ini\")) { New-Item \"$dir\\ffftp.ini\" | Out-Null }",
