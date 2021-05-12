@@ -1,18 +1,18 @@
 {
     "homepage": "http://ice.hotmint.com/putty/",
     "description": "A free implementation of SSH and Telnet, along with an xterm terminal emulator and GDI version.",
-    "version": "20210509",
+    "version": "20210512",
     "license": "http://www.chiark.greenend.org.uk/~sgtatham/putty/licence.html",
     "architecture": {
         "64bit": {
-            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20210509.zip",
-            "hash": "b7a5ff17d0bb7578a1af671f63deac2038f37b95aae8db86b96c82608323bf4e",
-            "extract_dir": "putty-gdi-20210509"
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20210512.zip",
+            "hash": "7c4def065e962c40133782b7c47af15456d1fe7413d8b0e2ef24a91314b794da",
+            "extract_dir": "putty-gdi-20210512"
         },
         "32bit": {
-            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20210509.zip",
-            "hash": "b7a5ff17d0bb7578a1af671f63deac2038f37b95aae8db86b96c82608323bf4e",
-            "extract_dir": "putty-gdi-20210509\\x86"
+            "url": "http://ice.hotmint.com/putty/down/putty-gdi-20210512.zip",
+            "hash": "7c4def065e962c40133782b7c47af15456d1fe7413d8b0e2ef24a91314b794da",
+            "extract_dir": "putty-gdi-20210512\\x86"
         }
     },
     "bin": [
