@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.smplayer.info/",
-    "version": "21.1.0",
+    "version": "21.8.0",
     "license": "GPLv2",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.1.0/smplayer-21.1.0-x64.exe#/dl.7z",
-            "hash": "9d956f4f868435fa4bdf7caa97dc12aa7d891ea36e088e57d88481328d6851c8"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-x64.exe#/dl.7z",
+            "hash": "53222ad52cb2144231773c49877d2ad2bcdfbc55e5c4c6b50805621e2149d8bc"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.1.0/smplayer-21.1.0-win32.exe#/dl.7z",
-            "hash": "9c36b68ac3ab6ab5c974b6cdcbc404821885a60463bc3f061244014c47594317"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-win32.exe#/dl.7z",
+            "hash": "1af4bc55453fd89c1ffa9b3bac076a306cd90676588efaa1605e676d59ee5202"
         }
     },
     "bin": "smplayer.exe",
