@@ -35,7 +35,7 @@
     ],
     "checkver": {
         "url": "https://github.com/cube-soft/Cube.Pdf/releases",
-        "re": "/releases/download/(?<githubversion>[\\d.]+)/cubepdf-utility-(?<version>[\\d.]+).exe\""
+        "re": "/releases/download/(?<githubversion>.+)/cubepdf-utility-(?<version>[\\d.]+).exe\""
     },
     "autoupdate": {
         "architecture": {
