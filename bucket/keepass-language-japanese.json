@@ -1,10 +1,10 @@
 {
-    "version": "2.48",
+    "version": "2.49",
     "description": "Light-weight and easy-to-use password manager translation for Japanese",
     "homepage": "https://keepass.info/translations.html",
     "license": "GPL-2.0-or-later",
-    "url": "https://downloads.sourceforge.net/project/keepass/Translations%202.x/2.48/KeePass-2.48-Japanese.zip",
-    "hash": "sha1:90dd5a1bf5b8d573af642d4cdcddbef7ae483778",
+    "url": "https://downloads.sourceforge.net/project/keepass/Translations%202.x/2.49/KeePass-2.49-Japanese.zip",
+    "hash": "sha1:61099dcb249075c753dde0b3aac77f5df0feddca",
     "depends": "extras/keepass",
     "installer": {
         "script": "Copy-Item \"$dir\\Japanese.lngx\" \"$(appdir keepass $global)\\current\\Languages\""
