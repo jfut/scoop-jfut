@@ -21,8 +21,8 @@
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "checkver": {
-        "url": "https://www.smplayer.info/downloads/",
-        "re": "Click here to download SMPlayer ([\\d.]+) \\(32-bit\\)"
+        "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/",
+        "re": "/SMPlayer/([\\d.]+)/"
     },
     "autoupdate": {
         "architecture": {
