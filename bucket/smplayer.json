@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.smplayer.info/",
-    "version": "21.8.0",
+    "version": "21.10.0",
     "license": "GPLv2",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-x64.exe#/dl.7z",
-            "hash": "53222ad52cb2144231773c49877d2ad2bcdfbc55e5c4c6b50805621e2149d8bc"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.10.0/smplayer-21.10.0-x64.exe#/dl.7z",
+            "hash": "11976e355a085f1f529495b3011a993ec08f6e6a6af59f329780fbda041ddb44"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-win32.exe#/dl.7z",
-            "hash": "1af4bc55453fd89c1ffa9b3bac076a306cd90676588efaa1605e676d59ee5202"
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.10.0/smplayer-21.10.0-win32-qt5.6.exe#/dl.7z",
+            "hash": "33e797cef5a75d6ba2ebc70a4d11c3da58aeb7703a276bd629432421a59d3d7c"
         }
     },
     "bin": "smplayer.exe",
@@ -34,7 +34,7 @@
                 }
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-win32.exe#/dl.7z",
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-win32-qt5.6.exe#/dl.7z",
                 "hash": {
                     "url": "https://www.fosshub.com/SMPlayer.html",
                     "find": "SMPlayer  Windows 32 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
