@@ -10,13 +10,13 @@ scoop bucket add jfut https://github.com/jfut/scoop-jfut.git
 
 # Japanese packages based on third-party buckets
 
-- [extras bucket](https://github.com/lukesampson/scoop-extras)
+- [Scoop Extras](https://github.com/ScoopInstaller/Extras)
     - firefox.ja.json
     - thunderbird.ja.json
     - irfanview.ja.json
 
 # Official buckets
 
-- [main bucket](https://github.com/ScoopInstaller/Main)
-- [extras bucket](https://github.com/lukesampson/scoop-extras)
+- [Scoop Main](https://github.com/ScoopInstaller/Main)
+- [Scoop Extras](https://github.com/ScoopInstaller/Extras)
 
