@@ -1,4 +1,4 @@
-# scoop-jfut [![Build status](https://ci.appveyor.com/api/projects/status/g7rl27je2p7y3kcs?svg=true)](https://ci.appveyor.com/project/jfut/scoop-jfut)
+# scoop-jfut [![Tests](https://github.com/jfut/scoop-jfut/actions/workflows/ci.yml/badge.svg)](https://github.com/jfut/scoop-jfut/actions/workflows/ci.yml) [![Excavator](https://github.com/jfut/scoop-jfut/actions/workflows/excavator.yml/badge.svg)](https://github.com/jfut/scoop-jfut/actions/workflows/excavator.yml)
 
 The "jfut" bucket for [Scoop](http://scoop.sh).
 
